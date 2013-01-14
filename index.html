@@ -15,15 +15,28 @@
     'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Bitter:400,700'
     rel='stylesheet' type='text/css' />
     <!-- google analytics code -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34574351-1']);
+      _gaq.push(['_setDomainName', 'skillswap.scottylabs.org']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
   <body>
     <div id="header" class="cf">
       <div id="logo">
-        <a href=""><img  src="img/content/crashcourse.png" alt="Crash Course Logo" /></a>
+        <a href="index.html"><img src="img/content/crashcourse-logo.png" alt="CrashCourse Logo" /></a>
       </div>
 	    <div id="intro">
           <!-- <p id="callout">
-            SkillSwap Weekend is a two day event where expert student volunteers teach other students new skills.
+            CrashCourse is a three day event where expert student volunteers teach other students new skills in preparation for the TartanHacks Hackathon.
           </p> -->
         </div>
     </div><!-- end header -->
@@ -32,7 +45,8 @@
 		<div id="about">
 			<h1>CrashCourse is Coming January 18th through 20th.</h1>
 			<p>TartanHacks is on the horizon! Arm yourself with an arsenal of new skills, skills that just may come into play in all your hackathon endeavors next week and beyond! Taught by a host of the most talented Carnegie Mellon students, these 50-minute Crash Courses will set you up with a basic foundation in everything from web development and design to using APIs to Android development. So while the semester is still young and your schedule might still have a teensy bit of space, drop by and pick up the skills that not only will come in handy in future class projects, but also just might be the icing to the cake on your resume&mdash;the one you&#39;ll be handing out at the <a href="http://www.cmu.edu/career/career-fairs-students/spring-2013/Spring-EOC-students.html">EOC</a> next month!
-			<span class="rsvp">You can <a href="https://www.facebook.com/events/453892161321541/">RSVP on Facebook WRONG LINK YO!!</a></span></p>
+			<span class="rsvp">You can <a href="https://www.facebook.com/events/577644358916490/?context=create">RSVP on Facebook</a></span></p>.
+			<p>TartanHacks mentors and CrashCourse Speakers be holding <a href="workshop/Office-Hours.html">OFFICE HOURS</a> each day from 4:30pm-5:30pm to help with installation and technical difficulties as well as answer any questions you may have. </p>
 		</div>
 		<figure class="gates">
 			<img src="img/content/gates.jpg" alt="Gates Hillman Center"/>
@@ -52,8 +66,8 @@
 					Friday 5:00-5:50
 				  </h3>
 				  <ul>
-					<li class="intro"><a href="workshop/The-Internet-Demystified.html"><span class="name">The Internet Demystified</span><span class="location">GHC 4211</span></a></li>
-					<li><a href="workshop/Using-APIs.html"><span class="name">Using APIs</span><span class="location">GHC 4102</span></a></li>
+					<li><a href="workshop/Intro-to-HTML-&-CSS.html"><span class="name">Intro to HTML & CSS</span><span class="location">GHC 4102</span></a></li>
+					
 				  </ul>
 				</div>
 				<div class="time-section">
@@ -61,7 +75,7 @@
 					Friday 6:00-6:50
 				  </h3>
 				  <ul>
-					<li><a href="workshop/Intro-to-HTML-&-CSS.html"><span class="name">Intro to HTML & CSS</span><span class="location">GHC 4102</span></a></li>
+					<li class="intro"><a href="workshop/Advanced-HTML-&-CSS.html"><span class="name">Advanced HTML & CSS</span><span class="location">GHC 4211</span></a></li>
 					<li class="intro"><a href="workshop/Databases.html"><span class="name">Databases</span><span class="location">GHC 4211</span></a></li>
 				  </ul>
 				</div>
@@ -70,7 +84,8 @@
 					Saturday 5:00-5:50
 				  </h3>
 				  <ul>
-					<li class="intro"><a href="workshop/Advanced-HTML-&-CSS.html"><span class="name">Advanced HTML & CSS</span><span class="location">GHC 4211</span></a></li>
+					<li class="intro"><a href="workshop/The-Internet-Demystified.html"><span class="name">The Internet Demystified</span><span class="location">GHC 4211</span></a></li>
+					<li><a href="workshop/Using-APIs.html"><span class="name">Using APIs</span><span class="location">GHC 4102</span></a></li>
 				  </ul>
 				</div>
 				<div class="time-section">
@@ -111,11 +126,44 @@
 	<div id="footer">
 		<div id="created-by">
 			<h1>Created By</h1>
+			<a class="logo" href="http://acmatcmu.org/">
+				<img src="img/content/acm-logo.png" alt="ACM Logo"/>
+			</a>
 			<a class="logo" href="http://scottylabs.org/">
-				<img  src="img/content/sl-logo.png" lat="ScottyLabs Logo"/>
+				<img src="img/content/sl-logo.png" lat="ScottyLabs Logo"/>
 			</a>
 		</div>
 		<div id="sponsored-by">
+			<h1>TartanHacks is sponsored by</h1>
+			<a class="logo" href="http://www.dropbox.com/">
+				<img src="img/content/dropbox-logo.png" alt="Dropbox Logo"/>
+			</a> 
+			<a class="logo" href="http://www.google.com">
+				<img src="img/content/google-logo.png" alt="Google Logo"/>
+			</a>
+			<a class="logo" href="http://www.janestreet.com/">
+				<img src="img/content/jane-street-logo.png" alt="Jane Street Capital Logo"/>
+			</a>
+			<a class="logo" href="http://www.facebook.com/">
+				<img src="img/content/facebook-logo.png" alt="Facebook Logo"/>
+			</a> 
+			<a class="logo" href="http://www.yahoo.com/">
+				<img src="img/content/yahoo-logo.png" alt="Yahoo! Logo"/>
+			</a>
+			<a class="logo" href="http://www.a16z.com/">
+				<img src="img/content/a16z-logo.png" alt="Andreessen Horowitz Logo"/>
+			</a> 
+			<a class="logo" href="http://www.capitalone.com/">
+				<img src="img/content/capital-one-logo.png" alt="Capital One Logo"/>
+			</a>
+			<a class="logo" href="http://www.microsoft.com/">
+				<img src="img/content/microsoft-logo.png" alt="Microsoft Logo"/>
+			</a>
+			<a class="logo" href="http://www.ghs.com/">
+				<img src="img/content/green-hills-logo.png" alt="Green Hills Software Inc. Logo"/>
+			</a> 
+			
+			
 		</div>
      </div>
   </body>

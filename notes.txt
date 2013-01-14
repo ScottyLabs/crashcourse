@@ -1,6 +1,7 @@
 
 
-
+private key passphrase for git: m0njuBh@i
+ce:c4:29:71:b4:c3:53:b4:a3:39:55:c7:c0:56:31:31 
 Crash Course Website:
 
 Blurb:
@@ -8,6 +9,24 @@ TartanHacks is on the horizon! Arm yourself with an arsenal of new skills, skill
 
 
 crashcourse.tartanhacks.com
+Jeff can't do Friday 5-6 switch him with Celine and Ryhan please
+Configuration will take longer but Jeff can leave that
+ask Celine...
+YOU add in the logo AND UPDATE SPONSORS LIST--ask quintin or 	
+	just get from company websites
+
+Ebay wants to be the next partner
+deploy scripts...add in the logo...single branch instead of
+develop and production
+
+Jeff giving me power to deploy websites after adding me into Web Team... XD
+
+in scottylabs server:
+1. deploy crashcourse.tartanhacks.com (permission denied)
+
+make new PRIVATE KEY not public keys as listed on SSH 
+	bc permission denied again--remote hung up unexpectedly
+	
 
 
 General:
