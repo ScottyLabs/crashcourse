@@ -1,7 +1,7 @@
 CrashCourse Website
 ===================
 
-There's nothing special about this site: it's just static HTML and CSS. If you need to edit something, you can go ahead and change the HTML directly. At some point this will change to jekyll (either as a learning exercise for Ruby/jekyll or for CrashCourse last year to improve maintainability).
+There's nothing special about this site: it's just static HTML and CSS. If you need to edit something, you can go ahead and change the HTML directly. At some point this will change to jekyll (either as a learning exercise for Ruby/jekyll or for CrashCourse next year to improve maintainability).
 
 Site Contents
 -------------
