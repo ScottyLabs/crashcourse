@@ -30,6 +30,7 @@ Note About Pushing
 ------------------
 
 Because this site is hosted on GitHub Pages as a project page (not a user/organization page), all changes must be pushed to the branch `gh-pages`. This can get annoying because there is no way to delete the `master` branch, so you should probably update your `.git/config` file to look like this:
+
     [core]
       repositoryformatversion = 0
       filemode = true
@@ -48,7 +49,10 @@ Because this site is hosted on GitHub Pages as a project page (not a user/organi
     [branch "gh-pages"]
       remote = origin
       merge = refs/heads/gh-pages
+
 Note how the last two lines of `[remote "origin"]` make it so that every time you type
-    git push
+
+    $ git push
+    
 you push the same code to both branches. This makes sure that both branches are always in sync.
 
