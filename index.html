@@ -1,192 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <title>CrashCourse</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join us for a day filled with code, food, and all the tools to bring your next app idea to life.">
-    <meta name="author" content="Jacob Zimmerman">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" CrashCourse Website="">
+    <meta name="author" ScottyLabs="">
 
-    <!-- Le styles -->
-    <link href="./assets/css/bootstrap.css" rel="stylesheet">
-    <link href="./assets/css/base.css" rel="stylesheet" type="text/css">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-      .blue h3 a {
-        color: #116d82;
-      }
-    </style>
-    <link rel="shortcut icon" href="assets/img/content/favicon.png" />
-    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css" type="text/css" />
-    <link href=
-    'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Bitter:400,700'
-    rel='stylesheet' type='text/css' />
-  </head>
+    <title>2014 | CrashCourse</title>
 
-  <body>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <div id="wrap">
-      <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">CrashCourse</a>
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="register/">Register</a></li>
-                <li><a href="schedule/">Schedule</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
+    <!-- Custom CSS -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <div id="home"></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">HOME</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">SCHEDULE</a>
+                    </li>
+                    <li>
+                        <a href="#register">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
+    </nav>
 
-      <header class="jumbotron subhead" id="overview">
-        <div class="row-fluid">
-          <h1 class="text-center span12">CrashCourse</h1>
-          <p class="lead text-center span12">Join us for a day filled with code, food, and all the tools to bring your  next app idea to life.</p>
+    <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the full-width-pics.css file. -->
+    <header class="image-bg-fluid-height">
+        <img class="img-responsive img-center" src="images/logo.png" alt="">
+    </header>
+
+    <!-- Content Section -->
+    <div id="faq"></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="red-header-bkg">
+                    <h1 class="section-heading">FAQ</h1>
+                  </div>
+                  <div class="red-border">
+                    <p class="lead section-lead">What is CrashCourse?</p>
+                    <p class="section-paragraph">CrashCourse is a series of tech-related workshops hosted by <a href="http://scottylabs.org" style="color: #FF4000">ScottyLabs</a>. Fellow talented CMU students will be leading these action-packed workshops, so you will have the opportunity to work closely with people who have actually applied knowledge learned within classroom in a real-world settings such as hackathons, internships, and careers.</p><p>We cater to all levels of experience with topics ranging from Intro to HTML/CSS to Advanced Computer Security, making this the perfect opportunity for anyone wanting to expand their skill set! We will also be providing swag, meals, drinks, and snacks throughout the entire event!</p>
+                    <p class="lead section-lead">When is CrashCourse?</p>
+                    <p class="section-paragraph">This year, we're splitting CrashCourse over two Saturdays, October 25th and November 1st. There will be different talks for each weekend, so be sure to check out the schedule below! Both sessions start at [enter start time here] and end approximately at [enter end time here]. While we invite you to stay for the entire day, but we completely understand if you have to leave at an earlier time.</p>
+                    <p class="lead section-lead"> Who can participate in CrashCourse?</p>
+                    <p class="section-paragraph">Any CMU student can come to CrashCourse! We especially encourage non-SCS students to stop by. Just remember to sign up below!</p>
+                    <p> [sponsor paragraph here]
+                    <p class="lead section-lead">What should you bring?</p>
+                    <p class="section-paragraph">filler</p>
+                  </div>
+                </div>
+            </div>
         </div>
-      </header>  
+    </section>
 
-      <hr />
+    <!-- Fixed Height Image Aside -->
+    <!-- Image backgrounds are set within the full-width-pics.css file. -->
 
-      <div class="row-fluid">
-        <p class="span8 offset2 text-center lead">Join <a href="http://www.scottylabs.org/">ScottyLabs</a> and <a href="http://www.acmatcmu.org/" style="color: #900">ACM@CMU</a> on <a href="register/" style="color: #116d82">November 2</a> for a whole day of speakers, sessions, and workshops on topics from HTML &amp; CSS to iOS apps and open source development. <br /><br /> It is entirely student led and student taught, so you'll get the opportunity to work closely with people who actually use what they teach at hackathons, school, and in their careers.
-      </div>
-
-      <div class="container marketing">
-
-        <hr />
-
-        <div class="row">
-          <div class="span4">
-            <h2>Passionate Speakers</h2>
-            <p>We've chosen some of the most passionate and knowledgeable CMU students to impart the knowledge they've gained throughout their CS careers.</p>
-          </div><!-- /.span4 -->
-          <div class="span4">
-            <h2>All Day Long</h2>
-            <p>Save the date: November 2<sup>nd</sup> is going to be <a href="schedule/">packed</a>. We've got so many sessions lined up that you can stay the whole day and we'll even feed you lunch and dinner.</p>
-          </div><!-- /.span4 -->
-          <div class="span4">
-            <h2>Register Now</h2>
-            <p>While we'd love to have the space and resources to host as many people as possible, only so many people can fit in Rashid. If you want to be one of those people, register <a href="register/">here</a> now!</p>
-          </div><!-- /.span4 -->
-        </div><!-- /.row -->
-
-        <a name="offerings"><hr class="featurette-divider" /></a>
-
-        <div class="row-fluid blue"> <!-- start of "table" -->
-          <div class="row-fluid">
-            <div class="text-center">
-              <h2 class="featurette-heading">Course offerings <span class="muted">for all interests</span></h2>
-              <p class="lead">Check out a complete listing of all the CrashCourses to be offered in Fall 2013.</p>
-              <h4>Make sure you check out the individual course pages to find speakers, prereqs, and longer descriptions. Once you've settled on some courses, check out the <a href="schedule/">schedule</a> to see when it's offered!</h4>
-              <br />
+    <!-- Content Section -->
+    <div id="schedule"></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="orange-header-bkg">
+                    <h1 class="section-heading">SCHEDULE</h1>
+                  </div>
+                  <div class="orange-border">
+                    <div class="center-date">
+                    <p class="lead section-lead">Saturday - October 24th</p>
+                  </div>
+                    <div class="schedule-table">
+                      <table >
+                      <tr>
+                          <th class="time">
+                              Time
+                          </th>
+                          <th class="room1">
+                              Room 1
+                          </th>
+                          <th class="room2">
+                              Room 2
+                          </th>
+                          <th class="room3">
+                              Room 3
+                          </th>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 1
+                          </td>
+                          <td>
+                              Event 1
+                          </td>
+                          <td>
+                              Event 1
+                          </td>
+                          <td>
+                              Event 1
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 2
+                          </td>
+                          <td>
+                              Event 2
+                          </td>
+                          <td>
+                              Event 2
+                          </td>
+                          <td>
+                              Event
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 3
+                          </td>
+                          <td>
+                              Event 3
+                          </td>
+                          <td>
+                              Event 3
+                          </td>
+                          <td>
+                              Event 3
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 4
+                          </td>
+                          <td>
+                              Event 4
+                          </td>
+                          <td>
+                              Event 4
+                          </td>
+                          <td>
+                              Event 4
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 5
+                          </td>
+                          <td>
+                              Event 5
+                          </td>
+                          <td>
+                              Event 5
+                          </td>
+                          <td>
+                              Event 5
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 6
+                          </td>
+                          <td>
+                              Event 6
+                          </td>
+                          <td>
+                              Event 6
+                          </td>
+                          <td>
+                              Event 6
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 7
+                          </td>
+                          <td>
+                              Event 7
+                          </td>
+                          <td>
+                              Event 7
+                          </td>
+                          <td>
+                              Event 7
+                          </td>
+                      </tr>
+                      <tr>
+                          <td >
+                              Time 8
+                          </td>
+                          <td>
+                              Event 8
+                          </td>
+                          <td>
+                              Event 8
+                          </td>
+                          <td>
+                              Event 8
+                          </td>
+                      </tr>
+                  </table>
+                </div>
+                  <div class="center-date">
+                    <p class="lead section-lead">Saturday - November 1st</p>
+                  </div>
+                  <div class="schedule-table">
+                    <table >
+                    <tr>
+                        <th class="time">
+                            Time
+                        </th>
+                        <th class="room1">
+                            Room 1
+                        </th>
+                        <th class="room2">
+                            Room 2
+                        </th>
+                        <th class="room3">
+                            Room 3
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 1
+                        </td>
+                        <td>
+                            Event 1
+                        </td>
+                        <td>
+                            Event 1
+                        </td>
+                        <td>
+                            Event 1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 2
+                        </td>
+                        <td>
+                            Event 2
+                        </td>
+                        <td>
+                            Event 2
+                        </td>
+                        <td>
+                            Event
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 3
+                        </td>
+                        <td>
+                            Event 3
+                        </td>
+                        <td>
+                            Event 3
+                        </td>
+                        <td>
+                            Event 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 4
+                        </td>
+                        <td>
+                            Event 4
+                        </td>
+                        <td>
+                            Event 4
+                        </td>
+                        <td>
+                            Event 4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 5
+                        </td>
+                        <td>
+                            Event 5
+                        </td>
+                        <td>
+                            Event 5
+                        </td>
+                        <td>
+                            Event 5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 6
+                        </td>
+                        <td>
+                            Event 6
+                        </td>
+                        <td>
+                            Event 6
+                        </td>
+                        <td>
+                            Event 6
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 7
+                        </td>
+                        <td>
+                            Event 7
+                        </td>
+                        <td>
+                            Event 7
+                        </td>
+                        <td>
+                            Event 7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Time 8
+                        </td>
+                        <td>
+                            Event 8
+                        </td>
+                        <td>
+                            Event 8
+                        </td>
+                        <td>
+                            Event 8
+                        </td>
+                    </tr>
+                </table>
+                  </div>
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="row-fluid"> <!-- Begin row -->
-            <div class="span4">
-              <h3><a href="workshops/intro-to-html-css/">Intro to HTML &amp; CSS</a></h3>
-              <p class="lead">Learn the basics with a simple, useful, hands-on example.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/advanced-html-css/">Advanced HTML &amp; CSS</a></h3>
-              <p class="lead">Dig deeper into the nitty-gritty of HTML &amp; CSS to make some stellar pages.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/visual-design/">Visual Design</a></h3>
-              <p class="lead">Learn what makes the difference between an awesome product and one that looks first class.</p>
-            </div>
-          </div>
-          <div class="row-fluid"> <!-- Begin row -->
-            <div class="span4">
-              <h3><a href="workshops/intro-to-javascript/">Intro to Javascript</a></h3>
-              <p class="lead">Bend HTML &amp; CSS to your will and more after learning a practical intro to Javascript.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/intro-to-node-js/">Intro to Node.js</a></h3>
-              <p class="lead">Take control of your networked applications with this all-the-rage Javascript framework.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/backbone-js/">Backbone.js</a></h3>
-              <p class="lead">Learn to structure your code with this lightweight MVC framework for Javascript.</p>
-            </div>
-          </div>
-          <div class="row-fluid"> <!-- Begin row -->
-            <div class="span4">
-              <h3><a href="workshops/ruby-rails/">Ruby / Rails</a></h3>
-              <p class="lead">Learn to develop powerful web-apps quickly with this popular web framework.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/intro-to-ios-development/">Intro to iOS Development</a></h3>
-              <p class="lead">Get your hands dirty with a fun and useful iOS app.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/how-to-raspberry-pi/">How To: Raspberry Pi</a></h3>
-              <p class="lead">You know you've always wanted to mess around with a RasPi.</p>
-            </div>
-          </div>
-          <div class="row-fluid"> <!-- Begin row -->
-            <div class="span4">
-              <h3><a href="workshops/intro-to-open-source/">Intro to Open Source</a></h3>
-              <p class="lead">A 2-part workshop where we turn a small piece of code into an open source project.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/computer-security/">Computer Security</a></h3>
-              <p class="lead">CMU's competitive security team wants you to hack into their website.</p>
-            </div>
-            <div class="span4">
-              <h3><a href="workshops/startup-panel/">Startup Panel</a></h3>
-              <p class="lead">Get the chance to talk and ask questions with some area startups.</p>
-            </div>
-          </div> <!-- End row -->
-        </div> <!-- end of "table" -->
-
-        <hr class="featurette-divider" />
-
-        <div class="featurette">
-          <img class="img-circle img-polaroid featurette-image pull-right" src="assets/img/content/gears.png" height="450" width="450"/>
-          <h2 class="featurette-heading">All right tools <span class="muted">for all the right places</span></h2>
-          <p class="lead">Arm yourself with an arsenal of new skills that you can put to use next week, next class, next hackathon, and beyond! You never know where these tools might take you.</p>
+            <!-- /.row -->
         </div>
 
-        <hr class="featurette-divider" />
+    </section>
 
-        <div class="featurette">
-          <img class="img-circle img-polaroid featurette-image pull-left" src="assets/img/content/tartanhacks.jpg" height="450" width="450"/>
-          <h2 class="featurette-heading">Stacks on stacks <span class="muted"> of talent</h2>
-            <p class="lead">Trust me. Taught by a host of the most talented Carnegie Mellon students, these 90-minute CrashCourses will set you up with a basic foundation in everything from web development and visual design to using APIs in your apps. Check out the course offerings <a href="#offerings">above</a> to find something that interests you!</p>
+    <!-- Content Section -->
+    <div id="register"></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="yellow-header-bkg">
+                    <h1 class="section-heading">REGISTER</h1>
+                  </div>
+                  <div class="yellow-border">
+                    <p class="lead section-lead">What Are You Waiting For?<p>
+                    <p class="section-paragraph">Save the date and head over to [TicketLeap url] to reserve your spot today! Also, be sure to like <a href="https://www.facebook.com/ScottyLabs" style="color:#FFC266">our Facebook page</a> to stay up to date with upcoming ScottyLabs events. </p>
+                    <p class="lead section-lead">Resume Drop</p>
+                    <p class="section-paragraph">are we doing this idk lol</p>
+                  </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <hr class="featurette-divider" />
-
-        <div class="featurette">
-          <img class="img-circle img-polaroid featurette-image pull-right" src="assets/img/content/pausch-bridge.jpg" height="450" width="450"/>
-          <h2 class="featurette-heading">A leg up <span class="muted">on the future</span></h2>
-          <p class="lead">Register <a href="register/">now</a> to pick up the skills that not only will come in handy in future class projects, but also just might be the icing on the cake on your resume&mdash;the one you&#39;ll be handing out at the EOC in the spring!</p>
-        </div>
-
-        <hr class="featurette-divider" />
-      </div> <!-- container -->
-      <div class="row-fluid">
-        <a href="http://www.scottylabs.org/"><img src="assets/img/content/sl-logo.png" class="span4 offset2" style="position: relative; bottom: 25px"/></a>
-        <a href="http://www.acmatcmu.org/"><img src="assets/img/content/acm-logo.png" class="span4"/></a>
-      </div>
-
-      <div id="push"></div>
-    </div>
-
+    <!-- Footer -->
     <footer>
-      <p class="text-center muted credit">A ScottyLabs and ACM@CMU project. &middot; Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Powered by <a href="http://twitter.github.io/bootstrap/">Bootstrap</a>.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; ScottyLabs 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
     </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/index.js"></script>
+
 </body>
+
 </html>
