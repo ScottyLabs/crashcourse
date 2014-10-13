@@ -19,7 +19,7 @@ body {
 
 .image-bg-fluid-height {
 	background: url('../images/bg3.png') no-repeat center center scroll;
-    padding: 395px 0px;
+    height: 100vh;
 }
 
 .image-bg-fixed-height {
