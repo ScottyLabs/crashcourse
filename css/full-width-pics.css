@@ -105,6 +105,8 @@ footer {
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0
 }
 
 table, th, td {
@@ -121,6 +123,12 @@ th, td {
   margin-right: auto;
   text-align: center;
   white-space:nowrap;
+}
+td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 th.time {
