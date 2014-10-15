@@ -19,7 +19,7 @@ body {
 
 .image-bg-fluid-height {
 	background: url('../images/bg3.png') no-repeat center center scroll;
-    padding: 395px 0;
+    padding: 417px 0;
 }
 
 .image-bg-fixed-height {
@@ -162,4 +162,8 @@ th.room3{
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: black;
+}
+
+a, a:hover{
+  color: #FF4000
 }
