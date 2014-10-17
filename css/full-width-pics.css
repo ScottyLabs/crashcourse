@@ -167,3 +167,8 @@ th.room3{
 a, a:hover{
   color: #FF4000
 }
+
+/* registration */
+#registration {
+    text-align: center;
+}
