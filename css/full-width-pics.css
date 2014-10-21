@@ -19,12 +19,14 @@ body {
 
 .image-bg-fluid-height {
 	background: url('../images/bg3.png') no-repeat center center scroll;
-    padding: 417px 0;
+    padding: 20%;
+    height: 100vh;
+
 }
 
 .image-bg-fixed-height {
 	background: url('../images/bg.png') no-repeat center center scroll;
-    height: 450px;
+
 }
 
 .img-center {
@@ -150,6 +152,8 @@ th.room3{
 .center-date {
   text-align: center;
 }
+
+
 
 .navbar, .navbar-inverse, .navbar-fixed-top {
   background-color: white;
