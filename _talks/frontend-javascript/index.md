@@ -1,7 +1,7 @@
 ---
 name: frontend-javascript
-title: Frontend Engineering
-subtitle: make your pages interactive with JavaScript
+title: Frontend Engineering with JavaScript
+subtitle: make your pages interactive
 description: >
   JavaScript is everywhere on the Web. With only a few lines of code, we can
   make immersive web applications, entertaining games, and interactive sites.
