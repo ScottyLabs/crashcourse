@@ -8,7 +8,7 @@ description: >
   haven't used it before. You don't have to have a Mac to write Android apps.
   Come learn what you need to know to get started writing your first Android
   app.
-#speaker:
+speaker: Justin Gallagher
 # optional: if your talk already has a page describing it somewhere, perhaps on
 # your personal website or on a different organization's site, uncomment and
 # populate this with a link to get there.

@@ -7,7 +7,7 @@ description: >
   how a document is structured, while CSS controls how it's displayed. Using
   just a little bit of knowledge, it's easy to make quite impressive-looking
   sites.
-#speaker:
+speaker: Taylor Poulos
 ---
 
 We will be covering some basic elements of HTML & CSS. Make sure you come with a

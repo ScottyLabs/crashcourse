@@ -4,7 +4,7 @@ title: Game Development in Unity
 subtitle: build engaging 3D graphical games
 description: >
   Description coming soon!
-#speaker: Game Creation Society
+speaker: Rachel Moeller
 # optional: if your talk already has a page describing it somewhere, perhaps on
 # your personal website or on a different organization's site, uncomment and
 # populate this with a link to get there.
