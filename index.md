@@ -55,9 +55,7 @@ being completely "lost at sea."
 
 ## Schedule
 
-We're still working on finalizing the schedule's speakers and descriptions, but
-we have the times slotted out. You can fine them on the [ScottyLabs Event
-Calendar][calendar]!
+All the talks will be held in __WEH 5201 (the Mac ClusteR)__.
 
 {% for day in site.data.days %}
 ### Day {{ forloop.index }}: {{ day.date }}
