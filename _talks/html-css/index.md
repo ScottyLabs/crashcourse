@@ -1,6 +1,6 @@
 ---
 name: html-css
-title: Introduction to HTML & CSS
+title: HTML & CSS
 subtitle: learn the foundations of web development
 description: >
   Every page you see on the web is composed of HTML & CSS. HTML determines

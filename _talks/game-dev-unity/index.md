@@ -1,6 +1,6 @@
 ---
 name: game-dev-unity
-title: Intro to Game Development in Unity
+title: Game Development in Unity
 subtitle: build engaging 3D graphical games
 description: >
   Description coming soon!

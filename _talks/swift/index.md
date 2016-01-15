@@ -1,13 +1,12 @@
 ---
-name: intro-to-ios
-title: Intro to iOS Development
-subtitle: come learn the platform that started a revolution
+name: swift
+title: Swift
+subtitle: the language of choice for iOS development
 description: >
-  Ever since iOS was released, it's been the gold standard for mobile
-  development. Now that Apple has released Swift, a new next-generation
-  programming language, it's become even more powerful. Come learn all you'll
-  need to know to get up and running with iOS development so you can build your
-  first app at TartanHacks.
+  Ever since Apple released Swift at WWDC in 2014, it's been an instant hit.
+  Swift is a very expressive, powerful, and elegant language. In this session,
+  we'll take a dive into the syntax of the language so that you can start
+  preparing yourself for iOS development.
 speaker: Scott Krulcik
 # optional: if your talk already has a page describing it somewhere, perhaps on
 # your personal website or on a different organization's site, uncomment and

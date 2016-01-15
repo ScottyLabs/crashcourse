@@ -1,13 +1,14 @@
 ---
-name: intro-to-swift
-title: Intro to Swift
-subtitle: the language of choice for iOS development
+name: android-dev
+title: Android Development
+subtitle: dive into crafting android apps
 description: >
-  Ever since Apple released Swift at WWDC in 2014, it's been an instant hit.
-  Swift is a very expressive, powerful, and elegant language. In this session,
-  we'll take a dive into the syntax of the language so that you can start
-  preparing yourself for iOS development.
-speaker: Scott Krulcik
+  Android is a very accessible platform for building apps. Millions of people
+  have Android devices. Java is a very accessible language, even for those who
+  haven't used it before. You don't have to have a Mac to write Android apps.
+  Come learn what you need to know to get started writing your first Android
+  app.
+#speaker:
 # optional: if your talk already has a page describing it somewhere, perhaps on
 # your personal website or on a different organization's site, uncomment and
 # populate this with a link to get there.

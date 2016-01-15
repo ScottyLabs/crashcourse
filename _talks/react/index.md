@@ -1,6 +1,6 @@
 ---
 name: react
-title: Intro to React.js
+title: React.js
 subtitle: facebook's ever-hyped JavaScript framework
 description: >
   JavaScript frameworks let you collect and structure your code to enable you to

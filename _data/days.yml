@@ -14,9 +14,9 @@
       time: '5:00 p.m.'
     - name: backend-flask
       time: '6:00 p.m.'
-    - name: intro-to-swift
+    - name: swift
       time: '7:00 p.m.'
-    - name: intro-to-ios
+    - name: ios-dev
       time: '8:00 p.m.'
 - date: Friday, Jan 29
   talks:
@@ -36,5 +36,5 @@
       time: '6:00 p.m.'
     - name: backend-flask
       time: '7:00 p.m.'
-    - name: intro-to-android
+    - name: android-dev
       time: '8:00 p.m.'
