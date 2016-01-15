@@ -55,7 +55,7 @@ being completely "lost at sea."
 
 ## Schedule
 
-All the talks will be held in __WEH 5201 (the Mac ClusteR)__.
+All the talks will be held in __WEH 5201 (the Mac Cluster)__.
 
 {% for day in site.data.days %}
 ### Day {{ forloop.index }}: {{ day.date }}
