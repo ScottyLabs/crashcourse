@@ -36,7 +36,7 @@ redcarpet:
 permalink: pretty
 
 # custom configuration
-registration_link: TODO
+registration_link: https://docs.google.com/forms/d/1P1nx3w_mQ0uVoZ3WrGGjUcVVyVWElKhNncAxcKMQ6us/viewform
 
 # The order that pages should be displayed int the menu bar
 # NOTE: These links hard-code the value of site.baseurl!
