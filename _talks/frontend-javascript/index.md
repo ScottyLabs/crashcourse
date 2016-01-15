@@ -12,5 +12,12 @@ description: >
   Participants in this workshop will complete exercises related to common
   JavaScript tasks.
 speaker: Jake Zimmerman
-redirect_to: https://scottylabs.org/wdw/frontend/
 ---
+
+All the resources for this particular talk can be found on the Web Dev Weekend
+website.
+
+[Go to the talk page!][1]
+
+
+[1]: https://scottylabs.org/wdw/frontend/
