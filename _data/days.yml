@@ -1,0 +1,40 @@
+- date: Friday, Jan 22
+  talks:
+    - name: dinner-sarv
+      time: '5:00 p.m.'
+    - name: html-css
+      time: '6:00 p.m.'
+    - name: frontend-javascript
+      time: '7:00 p.m.'
+    - name: game-dev-unity
+      time: '8:00 p.m.'
+- date: Saturday, Jan 23
+  talks:
+    - name: dinner-vfa
+      time: '5:00 p.m.'
+    - name: backend-flask
+      time: '6:00 p.m.'
+    - name: intro-to-swift
+      time: '7:00 p.m.'
+    - name: intro-to-ios
+      time: '8:00 p.m.'
+- date: Friday, Jan 29
+  talks:
+    - name: dinner-vfa
+      time: '5:00 p.m.'
+    - name: html-css
+      time: '6:00 p.m.'
+    - name: frontend-javascript
+      time: '7:00 p.m.'
+    - name: react
+      time: '8:00 p.m.'
+- date: Saturday, Jan 30
+  talks:
+    - name: dinner-sarv
+      time: '5:00 p.m.'
+    - name: design
+      time: '6:00 p.m.'
+    - name: backend-flask
+      time: '7:00 p.m.'
+    - name: intro-to-android
+      time: '8:00 p.m.'

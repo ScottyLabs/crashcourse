@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+$text: #313131;
+
+$custom-red-normal: #d11a2c;
+$custom-red-dark: #88111d;
+$custom-blue-normal: #2f497f;
+$custom-blue-dark: #1f3156;
+$custom-gold-normal: #c5a31b;
+$custom-gold-dark: #a28616;
+
+$color-palette:
+  $custom-blue-normal,
+  $custom-red-normal,
+  $custom-gold-normal,
+  $custom-blue-normal,
+  $custom-red-normal;
+
+// Convert Liquid list to Sass list
+$nav-pages: {% for p in site.nav_pages %}{{ p.title }},{% endfor %};
+
+
+@import
+  "base",
+  "pygments-monokai"
+;

@@ -1,0 +1,66 @@
+# Site settings
+title: CrashCourse | TartanHacks
+email: info@scottylabs.org
+description: >
+  A collection of talks and workshops designed to help you make the most of
+  TartanHacks. Topics range from web programming, to game design, to mobile
+  apps, and more.
+baseurl: "/crashcourse"
+url: "https://scottylabs.org"
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile.lock
+  - Gemfile
+
+gems:
+  - jekyll-redirect-from
+#whitelist:
+#  - jekyll-redirect-from
+
+# Build settings
+markdown: redcarpet
+highlight: pygments
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+redcarpet:
+  extensions:
+    - smart
+    - tables
+    - with_toc_data
+
+permalink: pretty
+
+# custom configuration
+registration_link: TODO
+
+# The order that pages should be displayed int the menu bar
+# NOTE: These links hard-code the value of site.baseurl!
+nav_pages:
+  - title: basics
+  - title: register
+    url: '/crashcourse/#how-do-i-attend'
+  - title: schedule
+    url: '/crashcourse/#schedule'
+  - title: talks
+    url: '/crashcourse/#talks'
+  - title: TartanHacks
+    url: http://tartanhacks.com
+
+
+collections:
+  talks:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+
