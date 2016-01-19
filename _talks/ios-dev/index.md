@@ -45,17 +45,18 @@ you want to use your own computer, you'll need the following:
 
 ## Outline
 
-We will be loosely following Apple's quickstart guide, but the application we
-make will be slightly different to highlight some useful tools.
+We will be loosely following Apple's [quickstart guide](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html), but the application we make will be slightly different to highlight some useful tools.
 
-1. Setting up an XCode Project
-2. MVC Paradigm
-3. Creating a View in Storyboard
-4. Creating a UIViewController Subclass
-5. Connecting View To Controller
-6. Creating a Model
-7. Populate View From Model
-8. Using Parse
-9. What Next?
+  1. Setting up an XCode Project
+  2. MVC Paradigm
+  3. Creating a View in Storyboard
+  4. Creating a UIViewController Subclass
+  5. Connecting View To Controller
+  6. Creating a Model
+  7. Populate View From Model
+  8. Using Parse
+  9. What Next?
+
+
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
