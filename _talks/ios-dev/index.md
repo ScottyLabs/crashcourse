@@ -15,7 +15,5 @@ speaker: Scott Krulcik
 #
 # Note: You can't simultaneously use this field and the "below the fold"
 # content. Perhaps consider linking to the other site there if you have to.
-#redirect_to:
+redirect_to: http://skottyk.github.io/CrashCourseResources/ios_dev/
 ---
-
-More information coming soon!
