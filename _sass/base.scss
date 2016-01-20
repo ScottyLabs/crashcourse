@@ -11,13 +11,13 @@ html, body {
 
 strong {
   font-weight: 700;
-  color: $text;
+  color: $text-dark;
 }
 
 html, body, .page-content .pure-g, .page-content .pure-u {
-  font-family: "Lato", "Helvetica Neue", "Calibri", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  font-family: "Roboto", "Helvetica Neue", "Calibri", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 2;
   color: $text;
 }
 
@@ -41,7 +41,7 @@ html, body, .page-content .pure-g, .page-content .pure-u {
 .page-content {
   .home {
     // white + pink on home page
-    @include color-mixin(white, $custom-red-normal);
+    @include color-mixin(white, $custom-1-normal);
   }
 
   @for $i from 1 through length($nav-pages) {
@@ -49,16 +49,6 @@ html, body, .page-content .pure-g, .page-content .pure-u {
       // color-palette[i] + color-palette[i] on other pages
       @include color-mixin(nth($color-palette, $i), nth($color-palette, $i));
     }
-  }
-
-  .red {
-    @include color-mixin($custom-red-normal, $custom-red-normal);
-  }
-  .blue {
-    @include color-mixin($custom-blue-normal, $custom-blue-normal);
-  }
-  .gold {
-    @include color-mixin($custom-gold-normal, $custom-gold-normal);
   }
 }
 
@@ -88,23 +78,14 @@ header {
 }
 
 .hero-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Muli", Helvetica, sans-serif;
+  text-align: center;
 }
 
-.hero-title {
-  font-size: 5em;
-  // This line height makes the spacing between the lines identical to to logo
-  line-height: 1.06;
-  // This margin-top aligns the vertical spacing between
-  // Tartan  and   Crash
-  // Hacks         Course
-  margin-top: 13px;
+.hero-logo img{
+  width: 75%;
 }
 
-.hero-logo + h6 {
+.hero-logo + h2 {
   margin-top: 0;
 }
 
@@ -122,17 +103,29 @@ h1, h2, h6 {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 72px;
+  line-height: 1.2;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
 }
 
 h2 {
   margin-top: 1.5em;
-  font-size: 36px;
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
 }
 
 h3 {
-  font-size: 26px;
-  margin-top: 1em;
+
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.3em;
+  text-align: center;
 }
 
 h4 {
@@ -155,6 +148,7 @@ h6 {
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 45px;
+  line-height: 1.5;
 }
 
 h1 + h6,
@@ -190,10 +184,6 @@ h1 {
 
   li {
     margin-bottom: 0.5em;
-  }
-
-  .home h3 {
-    margin-bottom: 0;
   }
 }
 
@@ -277,6 +267,10 @@ footer {
 }
 
 td, th {
-  border: 1px solid black;
-  padding: 10px;
+  border: 1px solid transparent;
+  padding: 6px;
+}
+
+td:last-child {
+  text-align: right;
 }

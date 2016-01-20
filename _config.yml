@@ -46,8 +46,6 @@ nav_pages:
     url: '/crashcourse/#how-do-i-attend'
   - title: schedule
     url: '/crashcourse/#schedule'
-  - title: talks
-    url: '/crashcourse/#talks'
   - title: TartanHacks
     url: http://tartanhacks.com
 
@@ -63,4 +61,3 @@ defaults:
       type: talks
     values:
       layout: talk
-
