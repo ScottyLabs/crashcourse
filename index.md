@@ -48,9 +48,12 @@ All the talks will be held in __WEH 5201 (the Mac Cluster)__.
   {% assign talk_docs = site.talks | where:"name",talk.name %}
   {% assign talk_doc = talk_docs[0] %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
-
-    <td>{% if talk_doc.speaker %}{{ talk_doc.speaker }}{% else %}To be decided{% endif %}</td>
+      {% if talk_doc.haspage %}
+        <td><a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
+      {% else %}
+        <td>{{ talk_doc.title }}</td>
+      {% endif %}
+      <td>{{ talk_doc.speaker }}</td>
       <td>{{ talk.time }}</td>
     </tr>
   {% endfor %}

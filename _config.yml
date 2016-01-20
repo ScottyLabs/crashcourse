@@ -61,3 +61,5 @@ defaults:
       type: talks
     values:
       layout: talk
+      haspage: true
+      speaker: To be decided

@@ -10,7 +10,7 @@
       time: '8:00 p.m.'
 - date: Saturday, Jan 23
   talks:
-    - name: dinner-vfa
+    - name: dinner
       time: '5:00 p.m.'
     - name: backend-flask
       time: '6:00 p.m.'
@@ -20,7 +20,7 @@
       time: '8:00 p.m.'
 - date: Friday, Jan 29
   talks:
-    - name: dinner-vfa
+    - name: dinner
       time: '5:00 p.m.'
     - name: html-css
       time: '6:00 p.m.'
