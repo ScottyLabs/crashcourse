@@ -3,14 +3,11 @@ layout: guide
 title: Home
 ---
 
-<br>
-
 <div class="hero-logo">
-  <img src="{{ site.baseurl }}/assets/img/logo-red.png">
-  <div class="hero-title">Crash<br>Course</div>
+  <img src="{{ site.baseurl }}/assets/img/crashcourse-logo.png">
 </div>
 
-###### two weekends of talks and workshops to get you ready for TartanHacks
+## let's get ready for TartanHacks
 
 CrashCourse is a collection of talks and workshops designed to help you make the
 most of TartanHacks. Topics range from web programming, to game design, to
@@ -38,55 +35,27 @@ can make something awesome.
     web sites or mobile apps, and go from there.
 
 
-## What will I learn?
-
-We'll teach you enough to get your feet wet. Combined with a couple of hours
-on your own between CrashCourse and TartanHacks, you'll have had enough exposure
-to make progress once you finally get to TartanHacks.
-
-Exactly what you learn will depend on what workshops you go to, and you can
-learn what each workshop is about by reviewing [basics][basics].
-
-It's not possible to teach you everything you need to know in an hour. Many
-things that we consider "essential" have been left out because of time. However,
-we aim to lay out some road maps that you can use to orient yourself instead of
-being completely "lost at sea."
-
-
 ## Schedule
 
 All the talks will be held in __WEH 5201 (the Mac Cluster)__.
 
 {% for day in site.data.days %}
-### Day {{ forloop.index }}: {{ day.date }}
+### {{ day.date }}
 
 <table class="full-width">
-  <thead>
-    <th>Session</th>
-    <th>Time</th>
-    <th>Speaker</th>
-  </thead>
   <tbody>
   {% for talk in day.talks %}
   {% assign talk_docs = site.talks | where:"name",talk.name %}
   {% assign talk_doc = talk_docs[0] %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
-      <td>{{ talk.time }}</td>
+
     <td>{% if talk_doc.speaker %}{{ talk_doc.speaker }}{% else %}To be decided{% endif %}</td>
+      <td>{{ talk.time }}</td>
     </tr>
   {% endfor %}
   </tbody>
 </table>
-{% endfor %}
-
-
-## Talks
-
-{% assign talks_sort_title = site.talks | sort: 'title' %}
-{% for talk in talks_sort_title %}
-  {% capture summary %}{% include talk-summary.md talk=talk %}{% endcapture %}
-  {{ summary | markdownify }}
 {% endfor %}
 
 
