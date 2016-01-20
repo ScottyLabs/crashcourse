@@ -13,11 +13,9 @@ description: >
   workshop will go over templating with Jinja, setting up forms, as well as user
   registration and login with a database.
 speaker: Bryan Yan
-# optional: if your talk already has a page describing it somewhere, perhaps on
-# your personal website or on a different organization's site, uncomment and
-# populate this with a link to get there.
-#
-# Note: You can't simultaneously use this field and the "below the fold"
-# content. Perhaps consider linking to the other site there if you have to.
-redirect_to: https://scottylabs.org/wdw/backend/
 ---
+
+This talk is actually a Web Dev Weekend talk. See [here][1] for all the
+before-the-talk prep and resources you'll need!
+
+[1]: https://scottylabs.org/wdw/backend/

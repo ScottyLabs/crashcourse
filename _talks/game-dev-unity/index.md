@@ -10,13 +10,6 @@ description: >
   parts of a game from start to finish. You'll even have a playable demo at the
   end!
 speaker: Rachel Moeller
-# optional: if your talk already has a page describing it somewhere, perhaps on
-# your personal website or on a different organization's site, uncomment and
-# populate this with a link to get there.
-#
-# Note: You can't simultaneously use this field and the "below the fold"
-# content. Perhaps consider linking to the other site there if you have to.
-#redirect_to:
 ---
 
 This talk is designed for people who have never opened Unity before. No prior
