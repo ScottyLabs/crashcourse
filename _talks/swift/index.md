@@ -14,7 +14,7 @@ _Note this talk is part one of a two-part series on Swift and iOS development.
 The iOS talk will follow this one, its description can be found
 [here](../ios-dev/)._
 
-## What You'll need
+## Before the Talk
 
 ### Expected Experience
 
