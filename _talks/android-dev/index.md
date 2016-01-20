@@ -3,19 +3,28 @@ name: android-dev
 title: Android Development
 subtitle: dive into crafting android apps
 description: >
-  Android is a very accessible platform for building apps. Millions of people
-  have Android devices. Java is a very accessible language, even for those who
-  haven't used it before. You don't have to have a Mac to write Android apps.
-  Come learn what you need to know to get started writing your first Android
-  app.
+  Our world is becoming more mobile every day - and there's no mobile platform
+  more popular worldwide than Android! Come learn how you can develop great
+  applications that reach the 1.4 billion users of Google's open source
+  operating system.<br><br>
+
+  In this workshop, participants will build a simple Java application that can
+  run on any Android phone. The workshop will go over the fundamentals of
+  Android development, such as the Activity lifecycle, using XML Layouts to
+  build UI, and interacting with the phone's sensors. Finally, attendees will
+  get to run their custom-built application on their own phones and learn how to
+  publish an app on the Google Play Store.
 speaker: Justin Gallagher
-# optional: if your talk already has a page describing it somewhere, perhaps on
-# your personal website or on a different organization's site, uncomment and
-# populate this with a link to get there.
-#
-# Note: You can't simultaneously use this field and the "below the fold"
-# content. Perhaps consider linking to the other site there if you have to.
-#redirect_to:
 ---
 
-More information coming soon!
+This talk is targeted towards those who know the basics of programming, but with
+little or no experience in Android development. Some experience with Java or a
+similar object-oriented programming language is recommended.
+
+You'll need to have following:
+
+- A laptop (Windows, OSX, or Linux are all fine!)
+- Download and install Android Studio, as well as the SDK packages and emulator
+  images for the most recent version of Android (the site will walk you through
+  this)
+- (optional) An Android phone and USB cable to test your app on a real phone!
