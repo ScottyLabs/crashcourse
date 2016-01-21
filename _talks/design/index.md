@@ -1,6 +1,6 @@
 ---
 name: design
-title: Web & Native App Design
+title: Web & Mobile App Design
 subtitle: good design entails more than just looks
 description: >
   When it comes to building products that users interact with, having good
@@ -18,7 +18,11 @@ No prior experience is assumed for this talk. Anyone who's ever wanted to learn
 a thing or two about thoughtful design should come by.
 
 Make sure you bring pencils and paper; the clusters have all the necessary
-software.
+software. If you'd like to use your own laptop, make sure you have [Sketch]
+installed. It's $99 normally, $50 for students, and free to try for short a
+period.
+
+[Sketch]: https://www.sketchapp.com/
 
 
 ### Resources
