@@ -17,10 +17,10 @@ speaker: Caroline Hermans
 No prior experience is assumed for this talk. Anyone who's ever wanted to learn
 a thing or two about thoughtful design should come by.
 
-Make sure you bring pencils and paper; the clusters have all the necessary
-software. If you'd like to use your own laptop, make sure you have [Sketch]
-installed. It's $99 normally, $50 for students, and free to try for short a
-period.
+Make sure you bring pencils and paper. Please bring a laptop with a free trial
+of Sketch installed, or install the free trial on one of the Wean cluster
+computers. If you’d like to purchase Sketch, it's $50 for students and great
+software for web and mobile design.
 
 [Sketch]: https://www.sketchapp.com/
 
