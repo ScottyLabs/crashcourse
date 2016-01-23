@@ -14,7 +14,7 @@ _Note this talk is part one of a two-part series on Swift and iOS development.
 The iOS talk will follow this one, its description can be found
 [here](../ios-dev/)._
 
-## Before the Talk
+## Prerequisites
 
 ### Expected Experience
 
@@ -36,13 +36,9 @@ you want to use your own computer, you'll need the following:
 - Find your Apple ID username and password (you already have an AppleID if you
   have any Apple products), which Xcode will ask for on startup.
 
-## Outline
 
-  1. Syntax Overview
-  2. Variables
-  3. Control Flow
-  4. Functions
-  5. Classes
-  6. Protocols (Interfaces)
+## Resources
+
+The notes that go along with the talk are available [here](http://skottyk.github.io/IntroToSwift/swift.html)!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12

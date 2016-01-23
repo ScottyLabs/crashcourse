@@ -17,7 +17,7 @@ The Swift talk will proceed this one, its description can be found
 
 ## Before the Talk
 
-### Expected Experience
+### Prerequisites
 
 This talk is targeted for people who know how to program, but would like to know
 how to program specifically for iOS. We expect you to be able to understand
@@ -39,24 +39,11 @@ __If you plan on using the cluster computers, no preparation is required!__ If
 you want to use your own computer, you'll need the following:
 
 - A Mac (if you don't have one, you have to use the cluster computers)
-- Download and install Xcode 7.1, avilable on the [App Store][xcode]
+- Download and install Xcode 7.1, avilable on the [App Store](https://itunes.apple.com/us/app/xcode/id497799835)
 - Find your Apple ID username and password (you already have an AppleID if you
   have any Apple products), which Xcode will ask for on startup.
 
-## Outline
+## Resources
 
-We will be loosely following Apple's [quickstart guide](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html), but the application we make will be slightly different to highlight some useful tools.
+The notes that go along with the talk are available [here](http://skottyk.github.io/IntroToSwift/ios.html)!
 
-  1. Setting up an XCode Project
-  2. MVC Paradigm
-  3. Creating a View in Storyboard
-  4. Creating a UIViewController Subclass
-  5. Connecting View To Controller
-  6. Creating a Model
-  7. Populate View From Model
-  8. Using Parse
-  9. What Next?
-
-
-
-[xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
