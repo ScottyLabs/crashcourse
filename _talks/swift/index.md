@@ -14,9 +14,9 @@ _Note this talk is part one of a two-part series on Swift and iOS development.
 The iOS talk will follow this one, its description can be found
 [here](../ios-dev/)._
 
-## Prerequisites
+## Before the Talk
 
-### Expected Experience
+### Prerequisites
 
 As far as programming experience goes, If you took 15-112, you'll be fine. If
 you only took 110 or AP Comp Sci, you're on the fence, but probably still fine.
@@ -39,6 +39,7 @@ you want to use your own computer, you'll need the following:
 
 ## Resources
 
-The notes that go along with the talk are available [here](http://skottyk.github.io/IntroToSwift/swift.html)!
+The notes that go along with the talk are available [here][swift]!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+[swift]: http://skottyk.github.io/IntroToSwift/swift.html

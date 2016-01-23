@@ -39,11 +39,13 @@ __If you plan on using the cluster computers, no preparation is required!__ If
 you want to use your own computer, you'll need the following:
 
 - A Mac (if you don't have one, you have to use the cluster computers)
-- Download and install Xcode 7.1, avilable on the [App Store](https://itunes.apple.com/us/app/xcode/id497799835)
+- Download and install Xcode 7.1, avilable on the [App Store][xcode]
 - Find your Apple ID username and password (you already have an AppleID if you
   have any Apple products), which Xcode will ask for on startup.
 
 ## Resources
 
-The notes that go along with the talk are available [here](http://skottyk.github.io/IntroToSwift/ios.html)!
+The notes that go along with the talk are available [here][ios]!
 
+[xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+[ios]: http://skottyk.github.io/IntroToSwift/ios.html
