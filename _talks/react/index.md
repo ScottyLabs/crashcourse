@@ -21,18 +21,8 @@ This is because React itself introduces a new syntax _on top_ of JavaScript
 itself, and it'd be quite confusing to have to differentiate what's normal and
 what's new.
 
-You should come with your laptop that has a few things already installed:
+### Slides
 
-- A text editor of your choice, like Vim or Atom
-- A terminal emulator of your choice
-  - Extensive terminal knowledge is not required, but I'll ask you to run a few
-    commands.
-- A Mac or Linux computer
-  - You can try attending with a Windows laptop, but I won't be able to help you
-    troubleshoot your setup. If you're comfortable with the platform, though,
-    I'm more than willing to help you with React specifically.
-- Node.js and npm installed
-  - It's best to install this through your package manager, like
-    [Homebrew][brew].
+You can follow along with the talk using [these slides][1].
 
-[brew]: http://brew.sh
+[1]: slides.pdf
