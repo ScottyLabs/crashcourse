@@ -19,18 +19,12 @@ gems:
 #  - jekyll-redirect-from
 
 # Build settings
-markdown: redcarpet
-highlight: pygments
+markdown: kramdown
+highlight: rouge
 
 sass:
   sass_dir: _sass
   style: compressed
-
-redcarpet:
-  extensions:
-    - smart
-    - tables
-    - with_toc_data
 
 permalink: pretty
 
