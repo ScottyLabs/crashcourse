@@ -42,4 +42,4 @@ you want to use your own computer, you'll need the following:
 The notes that go along with the talk are available [here][swift]!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
-[swift]: http://skottyk.github.io/IntroToSwift/swift.html
+[swift]: http://skrulcik.github.io/IntroToSwift/swift.html
