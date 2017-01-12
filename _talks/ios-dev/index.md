@@ -1,29 +1,27 @@
 ---
 name: ios-dev
 title: iOS Development
-subtitle: come learn the platform that started a revolution
+subtitle: Develop high quality mobile applications with iOS.
 description: >
-  Ever since iOS was released, it's been the gold standard for mobile
-  development. Now that Apple has released Swift, a new next-generation
-  programming language, it's become even more powerful. Come learn all you'll
-  need to know to get up and running with iOS development so you can build your
-  first app at TartanHacks.
+  iOS is the platform of choice for those looking to develop high-quality mobile
+  applications. In this talk we will introduce you to iOS development, and walk
+  you through building your first app. By the end of the talk, you will be able
+  to build your own app for TartanHacks!
 speaker: Scott Krulcik
 ---
 
 _Note this talk is part two of a two-part series on Swift and iOS development.
-The Swift talk will proceed this one, its description can be found
+The Swift talk will precede this one, its description can be found
 [here](../swift/)._
 
 ## Before the Talk
 
 ### Prerequisites
 
-This talk is targeted for people who know how to program, but would like to know
-how to program specifically for iOS. We expect you to be able to understand
-Swift code, but you don't need to be an expert in it. If you don't have
-experience with Swift already, we strongly recommend the 7:00PM Swift lecture
-that precedes this one.
+This talk is targeted towards people who already have programming experience
+(e.g. took 112), but are unfamiliar with developing iOS applications. If your
+previous experience does not include Swift, we strongly recommend that you
+attend the Swift workshop that precedes this one.
 
 While this talk is open to everyone, we expect attendees to have some
 object-oriented programming (OOP) experience. We will assume you understand
@@ -35,13 +33,16 @@ this is not required.
 
 ### Required Software
 
-__If you plan on using the cluster computers, no preparation is required!__ If
-you want to use your own computer, you'll need the following:
+If you plan on using the cluster computers, no preparation is required!
+
+If you want to use your own computer, you'll need the following:
 
 - A Mac (if you don't have one, you have to use the cluster computers)
-- Download and install Xcode 7.1, avilable on the [App Store][xcode]
-- Find your Apple ID username and password (you already have an AppleID if you
-  have any Apple products), which Xcode will ask for on startup.
+- Download and install Xcode 8.2, available on the [App Store][xcode]. It is
+    important that you install at least Xcode 8, which comes with Swift 3.0.
+- Find your Apple ID username and password (you already have an Apple ID if you
+    have any Apple products). Xcode will ask for these credentials the first
+    time it starts.
 
 ## Resources
 
