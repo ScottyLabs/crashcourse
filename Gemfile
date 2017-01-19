@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri', '>= 1.6.6.2'
+gem 'nokogiri', '>= 1.6.8.1'
 gem 'github-pages'
