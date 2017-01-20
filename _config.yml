@@ -29,7 +29,7 @@ sass:
 permalink: pretty
 
 # custom configuration
-registration_link: https://docs.google.com/forms/d/1P1nx3w_mQ0uVoZ3WrGGjUcVVyVWElKhNncAxcKMQ6us/viewform
+registration_link: https://docs.google.com/forms/d/e/1FAIpQLSftlGlRHYxpzCC7_cUwN0SJ0TxCwPZn3U-C-mosKOA_nLNokQ/viewform
 
 # The order that pages should be displayed int the menu bar
 # NOTE: These links hard-code the value of site.baseurl!
