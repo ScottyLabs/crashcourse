@@ -3,7 +3,7 @@ name: type-grid
 title: Typography & Grid
 subtitle: learn to craft well-designed sites
 description: >
-  TODO add description here
+  Coming soon!
 # Be sure to uncomment and fill this out!
 #speaker:
 ---
@@ -11,4 +11,4 @@ description: >
 
 ## How to Attend
 
-TODO how to attend?
+Coming soon!

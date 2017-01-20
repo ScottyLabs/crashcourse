@@ -3,7 +3,7 @@ name: terminal-git
 title: Using the Terminal & Git
 subtitle: two ubiquitous technologies for developing software
 description: >
-  TODO write description here
+  Coming soon!
 # Be sure to uncomment and fill this out!
 #speaker:
 ---
@@ -11,4 +11,4 @@ description: >
 
 ## How to Attend
 
-TODO how to attend here
+Coming soon!
