@@ -10,8 +10,8 @@ title: Home
 ## let's get ready for TartanHacks
 
 CrashCourse is a collection of talks and workshops designed to help you make the
-most of TartanHacks. Topics range from web programming, to game design, to
-mobile apps, and more.
+most of TartanHacks. Topics range from web programming to game design to
+mobile apps and more.
 
 The talks are all student-led and focused on hands-on activities. They're
 designed to launch you right into the midst of app and game development so you
@@ -22,7 +22,7 @@ can make something awesome.
 
 1. __[Register]({{ site.registration_link }})__
   - You certainly don't have to register to attend, but we like knowing how many
-    people to expect and what people will be interested in learning.
+    people to expect and which topics people are interested in learning.
 1. __[Read "The Basics"][basics]__
   - This quick read will introduce you to some common concepts and explain what
     the workshops are about.
@@ -40,6 +40,7 @@ can make something awesome.
 All the talks will be held in __WEH 5201 (the Mac Cluster)__.
 
 {% for day in site.data.days %}
+
 ### {{ day.date }}
 
 <table class="full-width">

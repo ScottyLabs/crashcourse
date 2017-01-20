@@ -1,40 +1,48 @@
-- date: Friday, Jan 22
+- date: Saturday, Jan 28
   talks:
-    - name: dinner-sarv
-      time: '5:00 p.m.'
     - name: html-css
-      time: '6:00 p.m.'
+      time: '1:30 p.m.'
     - name: frontend-javascript
-      time: '7:00 p.m.'
-    - name: game-dev-unity
-      time: '8:00 p.m.'
-- date: Saturday, Jan 23
-  talks:
+      time: '3:00 p.m.'
+    - name: terminal-git
+      time: '4:30 p.m.'
     - name: dinner
-      time: '5:00 p.m.'
-    - name: backend-flask
       time: '6:00 p.m.'
+    - name: type-grid
+      time: '6:30 p.m.'
+- date: Sunday, Jan 29
+  talks:
     - name: swift
-      time: '7:00 p.m.'
+      time: '1:30 p.m.'
     - name: ios-dev
-      time: '8:00 p.m.'
-- date: Friday, Jan 29
-  talks:
+      time: '3:00 p.m.'
+    - name: ios-design
+      time: '4:30 p.m.'
     - name: dinner
-      time: '5:00 p.m.'
-    - name: html-css
       time: '6:00 p.m.'
-    - name: frontend-javascript
-      time: '7:00 p.m.'
-    - name: react
-      time: '8:00 p.m.'
-- date: Saturday, Jan 30
+    - name: unity-ar
+      time: '6:30 p.m.'
+- date: Saturday, Feb 4
   talks:
-    - name: dinner-sarv
-      time: '5:00 p.m.'
-    - name: design
+    - name: swift
+      time: '1:30 p.m.'
+    - name: ios-dev
+      time: '3:00 p.m.'
+    - name: web-visual-design
+      time: '4:30 p.m.'
+    - name: dinner
       time: '6:00 p.m.'
-    - name: backend-flask
-      time: '7:00 p.m.'
-    - name: android-dev
-      time: '8:00 p.m.'
+    - name: tensorflow
+      time: '6:30 p.m.'
+- date: Sunday, Feb 5
+  talks:
+    - name: frontend-javascript
+      time: '1:30 p.m.'
+    - name: ios-design
+      time: '3:00 p.m.'
+    - name: terminal-git
+      time: '4:30 p.m.'
+    - name: dinner
+      time: '6:00 p.m.'
+    - name: opencv
+      time: '6:30 p.m.'
