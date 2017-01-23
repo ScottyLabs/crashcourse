@@ -46,6 +46,7 @@ nav_pages:
 collections:
   talks:
     output: true
+    permalink: /:path/
 
 
 defaults:
