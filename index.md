@@ -7,7 +7,9 @@ title: Home
   <img src="{{ site.baseurl }}/assets/img/crashcourse-logo.png">
 </div>
 
-## let's get ready for TartanHacks
+# CrashCourse
+
+###### let's get ready for TartanHacks
 
 CrashCourse is a collection of talks and workshops designed to help you make the
 most of TartanHacks. Topics range from web programming to game design to

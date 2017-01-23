@@ -15,9 +15,9 @@ strong {
 }
 
 html, body, .page-content .pure-g, .page-content .pure-u {
-  font-family: "Roboto", "Helvetica Neue", "Calibri", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 2;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
   color: $text;
 }
 
@@ -79,6 +79,9 @@ header {
 
 .hero-logo {
   text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .hero-logo img{
@@ -103,32 +106,19 @@ h1, h2, h6 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 54px;
   line-height: 1.2;
-  font-family: 'Permanent Marker', cursive;
-  color: black;
 }
 
 h2 {
   margin-top: 1.5em;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.2;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: normal;
-  color: black;
 }
 
 h3 {
-
-  font-family: 'Permanent Marker', cursive;
-  
-  font-weight: normal;
-  margin-top: 3em;
-  margin-bottom: 1.5em;
-  text-transform: uppercase;
-  color: black;
-  letter-spacing: 0.3em;
-  text-align: center;
+  font-size: 26px;
+  margin-top: 1em;
 }
 
 h4 {
