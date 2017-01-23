@@ -46,6 +46,11 @@ All the talks will be held in __WEH 5201 (the Mac Cluster)__.
 ### {{ day.date }}
 
 <table class="full-width">
+  <thead>
+    <th>Session</th>
+    <th>Speaker</th>
+    <th>Time</th>
+  </thead>
   <tbody>
   {% for talk in day.talks %}
   {% assign talk_docs = site.talks | where:"name",talk.name %}

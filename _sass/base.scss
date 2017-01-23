@@ -270,11 +270,15 @@ footer {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid transparent;
-  padding: 6px;
+table {
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
-
-td:last-child {
-  text-align: right;
+th {
+  border-bottom: 1px solid black;
+}
+td, th {
+  padding: 10px;
+  text-align: left;
 }
