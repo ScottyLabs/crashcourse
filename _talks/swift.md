@@ -1,12 +1,12 @@
 ---
 name: swift
 title: Swift
-subtitle: the language of choice for iOS development
+subtitle: The language of choice for iOS development.
 description: >
-  Ever since Apple released Swift at WWDC in 2014, it's been an instant hit.
-  Swift is a very expressive, powerful, and elegant language. In this session,
-  we'll take a dive into the syntax of the language so that you can start
-  preparing yourself for iOS development.
+  Swift is an expressive, powerful, and elegant language used to develop iOS and
+  OSX applications. In this session, we will cover the basic concepts of the
+  Swift programming language (version 3). We will also cover how to build and
+  run Swift code using Xcode 8, and common pitfalls for Swift beginners.
 speaker: Scott Krulcik
 ---
 
@@ -18,28 +18,37 @@ The iOS talk will follow this one, its description can be found
 
 ### Prerequisites
 
-As far as programming experience goes, If you took 15-112, you'll be fine. If
-you only took 110 or AP Comp Sci, you're on the fence, but probably still fine.
-
 While this talk is open to everyone, we expect attendees to have some
 object-oriented programming (OOP) experience. We will assume you understand
 terms like 'class,' 'object,' and 'instantiate,' as well as the basic idea of
 _inheritance_.
 
+In explicit terms, successful completion of 15-112 is considered sufficient
+experience. If you only took 110 or AP Computer Science, you're on the fence,
+but probably still fine.
+
 ### Required Software
 
-__If you plan on using the cluster computers, no preparation is required!__ If
-you want to use your own computer, you'll need the following:
+If you plan on using the cluster computers, no preparation is required!
+
+If you want to use your own computer, you'll need the following:
 
 - A Mac (if you don't have one, you have to use the cluster computers)
-- Download and install Xcode 7.1, avilable on the [App Store][xcode]
-- Find your Apple ID username and password (you already have an AppleID if you
-  have any Apple products), which Xcode will ask for on startup.
+- Download and install Xcode 8.2, available on the [App Store][xcode]. It is
+    important that you install at least Xcode 8, which comes with Swift 3.0.
+- Find your Apple ID username and password (you already have an Apple ID if you
+    have any Apple products). Xcode will ask for these credentials the first
+    time it starts.
 
+If you are a Vim fan, you might want to check out the [XVim Project][xvim] which
+allows you to use you Vim bindings in Xcode. Beware, though, it requires you to
+self-sign your copy of Xcode which seems unbelievably sketch.
 
 ## Resources
 
 The notes that go along with the talk are available [here][swift]!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
-[swift]: http://skottyk.github.io/IntroToSwift/swift.html
+[swift]: http://skrulcik.github.io/IntroToSwift/swift.html
+[xvim]: https://github.com/XVimProject/XVim
+

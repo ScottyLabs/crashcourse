@@ -14,10 +14,11 @@ description: >
 speaker: Jake Zimmerman
 ---
 
+## How to Attend
+
 All the resources for this particular talk can be found on the Web Dev Weekend
 website.
 
 [Go to the talk page!][1]
-
 
 [1]: https://scottylabs.org/wdw/frontend/
