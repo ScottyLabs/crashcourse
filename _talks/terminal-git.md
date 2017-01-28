@@ -27,7 +27,7 @@ between Git and GitHub, and then go over the Git workflow and the commands that
 go with it. Finally, with the aid of provided command cheat sheets, participants
 will run through a short lab practicing major tasks and Git workflow.
 
-## Before We Begin
+## How to Attend
 
 Register for a GitHub account if you don’t already have one
 ([GitHub](https://github.com)). Bring a computer, preferably a Mac or Linux
@@ -38,7 +38,9 @@ application is. Note: `cmd.exe` is not a suitable terminal for our purposes.
 [install]: https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
 
 
-## Setup
+## Talk Notes
+
+### Setup
 
 - You will need a GitHub account, so make one if you don't already have one
 
@@ -57,7 +59,7 @@ application is. Note: `cmd.exe` is not a suitable terminal for our purposes.
   -  <https://www.cs.cmu.edu/~15131/f16/topics/terminal-usage/initial-setup/>
 
 
-## Talk Schedule
+### Talk Schedule
 
 1. Setup (5 minutes)
 2. Bash (20 minutes)
@@ -71,7 +73,7 @@ application is. Note: `cmd.exe` is not a suitable terminal for our purposes.
 5. Steve Crusader against the Earth (30 minutes)
 
 
-## Config Files
+### Config Files
 
 - Run the following commands (if you already have dotfiles of your own, you're welcome to use those or move them aside for now
 
@@ -84,7 +86,7 @@ $ vim +PluginInstall +qall
 ```
 
 
-## Terminal
+### Terminal
 
 - Shell: a program where you type commands which are executed by the system
 - Bash history
@@ -97,7 +99,7 @@ $ vim +PluginInstall +qall
   - Can also read commands from a file, or script
 
 
-## Features
+### Features
 
 - Command history
 - Command-line completion (autocompletion)
@@ -110,9 +112,9 @@ $ vim +PluginInstall +qall
 - Advanced alternative: zsh
 
 
-## Command + Flags + Arguments
+### Command + Flags + Arguments
 
-### Navigation
+#### Navigation
 
 "." is current directory, ".." is parent directory to current directory
 "~" is home directory
@@ -137,7 +139,7 @@ $ cd
 
 
 
-### Files
+#### Files
 
 Move and rename files
 
@@ -164,7 +166,7 @@ $ rm
 ```
 
 
-### Directories
+#### Directories
 
 Make directory
 
@@ -191,7 +193,7 @@ $ open
 ```
 
 
-### File Manipulation, Miscellaneous
+#### File Manipulation, Miscellaneous
 
 Print contents of files
 
@@ -211,7 +213,7 @@ in Emacs
 $ emacs
 ```
 
-### Resources:
+#### Resources:
 
 Get help on a command
 
@@ -222,7 +224,7 @@ $ man
 Also, Google.
 
 
-## Git
+### Git
 
 - Git is an open-source distributed version-control system
   - Use it for protecting the integrity of your project
@@ -239,7 +241,7 @@ Also, Google.
   point where you think you might want to come back to, you commit!
 
 
-### Getting started
+#### Getting started
 
 - Best to either start a repo locally and push to GitHub or clone an existing repo
 
@@ -265,7 +267,7 @@ $ git clone <url>
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_9053F9BECF88C2499338162FFE93D56C74F966A6DC6DFAA8917E5CE12A049A1C_1484621625966_Screen+Shot+2017-01-16+at+9.52.59+PM.png)
 
 
-### Adding/committing
+#### Adding/committing
 
 - To propose changes by adding changed files to staging:
 
@@ -298,7 +300,7 @@ $ git push origin master
 ```
 
 
-### Branching
+#### Branching
 
 - To see branches:
 
@@ -337,7 +339,7 @@ $ git diff <source_branch> <target_branch>
 ```
 
 
-### Reverting changes
+#### Reverting changes
 
 - To reset staged changes:
 
@@ -365,7 +367,7 @@ $ git revert <commit_hash>
 ```
 
 
-### Pulling and merging
+#### Pulling and merging
 
 - To pull (grab) most recent changes from a remote repo (update your local repo
   to most current version of remote):
@@ -393,7 +395,7 @@ $ git add <filename>
 ```
 
 
-### Resolving merge conflicts!
+#### Resolving merge conflicts!
 
 Steve Crusader against the Earth
 
