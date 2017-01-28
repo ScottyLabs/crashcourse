@@ -37,14 +37,14 @@ To follow along, go to the
 topics during the talk, the companion website will show you examples of source
 code and its output to illustrate concepts.
 
-We also created a list of suggested websites and other [resources](resources/) for
-further exploration once you are finished with the talk.
-
 The slides can be found [here](https://skrulcik.github.io/WDW_HTMLCSS/HTMLCSS.pdf).
 
 ---
 
 ##  External References
+
+These resources are great places to look for information on your own, after the
+talk.
 
   - __W3Schools__<br/>
       A great quick reference when you need a 30-second refresher on a HTML tag
