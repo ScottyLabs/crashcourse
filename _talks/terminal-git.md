@@ -3,10 +3,11 @@ name: terminal-git
 title: Using the Terminal & Git
 subtitle: two ubiquitous technologies for developing software
 description: >
-    Using the terminal is a core foundation of any software (or even hardware) hack,
-    and basic terminal experience goes a long way—downloading and installing
-    packages and libraries, manipulating and writing code, and accessing frameworks
-    all can be done extraordinarily easily through the terminal.
+    Using the terminal is a core foundation of any software (or even hardware)
+    hack, and basic terminal experience goes a long way—downloading and
+    installing packages and libraries, manipulating and writing code, and
+    accessing frameworks all can be done extraordinarily easily through the
+    terminal.
 speaker: Josh Zhanson
 ---
 
@@ -30,7 +31,8 @@ will run through a short lab practicing major tasks and Git workflow.
 
 Register for a GitHub account if you don’t already have one
 ([GitHub](https://github.com)). Bring a computer, preferably a Mac or Linux
-(Windows is acceptable but install [Bash for Ubuntu for Windows prior](install))
+(Windows is acceptable but install [Bash for Ubuntu for Windows prior][install])
 with a web browser and a text editor. Make sure you know where the terminal
 application is. Note: `cmd.exe` is not a suitable terminal for our purposes.
 
+[install]: https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
