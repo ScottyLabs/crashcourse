@@ -22,3 +22,9 @@ design software installed, like [Sketch](https://www.sketchapp.com/),
 like this already installed, you can use the links above to find free trials.
 Alternatively, attend the workshop with a friend who has this software already
 installed. The Mac cluster computers will be available as well.
+
+## Slides
+
+The slides for the talk can be [found here][slides].
+
+[slides]: {{ site.baseurl }}/assets/type-grid.pdf
