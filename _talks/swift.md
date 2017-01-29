@@ -49,6 +49,6 @@ self-sign your copy of Xcode which seems unbelievably sketch.
 The notes that go along with the talk are available [here][swift]!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
-[swift]: http://skrulcik.github.io/IntroToSwift/swift.html
+[swift]: http://scottylabs.org/IntroToSwift/swift.html
 [xvim]: https://github.com/XVimProject/XVim
 

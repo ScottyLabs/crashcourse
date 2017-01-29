@@ -49,5 +49,5 @@ If you want to use your own computer, you'll need the following:
 The notes that go along with the talk are available [here][ios]!
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
-[ios]: http://skrulcik.github.io/IntroToSwift/ios.html
+[ios]: http://scottylabs.org/IntroToSwift/ios.html
 
