@@ -23,3 +23,7 @@ Prior python knowledge is preferred, but not absolutely required.
 
 _This talk is given in partnership with the Computer Vision Club_
 
+## Resources
+
+- [Slides (pdf)](../assets/tensorflow/deep-learning-with-tensorflow.pdf)
+- [Slides (pptx)](../assets/tensorflow/deep-learning-with-tensorflow.pptx)
