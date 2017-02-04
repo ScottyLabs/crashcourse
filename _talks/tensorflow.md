@@ -7,7 +7,7 @@ description: >
     What is an artificial neural network? We will be learning the basics of what
     a neural network is, and then implement and train a very simple model to
     classify handwritten digits using python and TensorFlow.
-speaker: Brian
+speaker: Brian Pugh
 ---
 
 ## How to Attend
