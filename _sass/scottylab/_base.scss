@@ -1,0 +1,227 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: $background-color;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  height:100%;
+}
+
+strong {
+  font-weight: 700;
+}
+//anchor styling
+@mixin color-mixin($color-base, $color-accent) {
+  a {
+    color: $color-accent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darken($color-accent, 10%);
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  border-bottom: 15px solid $color-base;
+}
+
+//centers content of page
+.center{
+  margin: 0 auto;
+  max-width: 50%;
+  // border: 5px solid red;
+}
+
+header{
+  // border: 2px solid blue;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+header img{
+  margin: 0 auto;
+}
+//font styling
+
+h1{
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-top:.67em;
+  margin-bottom: 0;
+}
+
+h6{
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.35rem;
+}
+
+p{
+  margin: 1.25em 0;
+}
+
+mark{
+  background-color: $mark-color;
+}
+//Creates responsive layout for buttons
+.nav-wrapper{
+  height: 50px;
+}
+.nav{
+  height: 50px;
+  padding-top: 1%;
+  // border: 2px dashed purple;
+  background-color: $background-color;
+}
+.nav-wrapper .nav.fixed {
+    position: fixed;
+    margin: 0 auto;
+    max-width: 50%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.margin{
+  margin: 0 1%;
+}
+#menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+//Remove Style from Anchor
+#menu a{
+  text-decoration: none;
+  color: $button-text;
+}
+
+
+.buttonStyle{
+  background-color: $button-color;
+  color: $button-text;
+  height:50px;
+  width: 175px;
+  font-size: 1.15em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.changeButton{
+  background-color: #009e80;
+  transition: background-color .5s;
+}
+//Content Styling
+.content{
+  @include color-mixin($button-color,$button-active-color);
+  // border: 1px dashed green;
+  margin-right: 10%;
+}
+
+.anchor{
+   display:block;
+   height:50px; /* this is the height of your header */
+   margin-top:-50px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+}
+
+//navigation squares
+
+.dots{
+  display:flex;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  flex-direction:column;
+  align-items: center;
+  top:20vh;
+  left:20.5vw;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: default;
+  transition: visibility 0s, opacity 0.2s linear;
+
+  .active{
+    a{
+          transform: scale3d(1, 1, 1);
+
+      &:after{
+      height: 100%;
+      }
+    }
+  }
+
+  li{
+    position: relative;
+    display: block;
+    float: left;
+    margin: 1vh 2px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    a{
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color:rgba(0, 0, 0, 0);
+      cursor: pointer;
+      position: absolute;
+      overflow: hidden;
+      background-color: transparent;
+      box-shadow: inset 0 0 0 1px #009E80;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+
+      &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 0;
+        left: 0;
+        width: 100%;
+        background-color: #009E80;
+        -webkit-transition: height 0.3s ease;
+        transition: height 0.3s ease;
+      }
+    }
+  }
+}
+
+
+
+//list styling
+
+ol li{
+  padding: 0;
+  list-style-position: inside;
+}
+
+ol ul{
+  margin-left: 2.5em;
+}
+
+ol ul li{
+  list-style-position: outside;
+  padding-left: 0;
+}

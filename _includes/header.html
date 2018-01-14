@@ -1,17 +1,22 @@
 <header>
-
-  <div class="pure-menu pure-menu-open pure-menu-horizontal">
-    <span class="pure-menu-item">
-      <a href="{{ site.baseurl }}/" class="pure-menu-link">
-        <img class="icon-logo" src="{{ site.baseurl }}/assets/img/logo-red.png">
-      </a>
-    </span>
-    <ul class="pure-menu-list">
-      {% for p in site.nav_pages %}
-      {% capture href %}{% if p.url %}{{ p.url }}{% else %}{{ site.baseurl }}/{{ p.title }}/{% endif %}{% endcapture %}
-          <li class="pure-menu-item"><a class="pure-menu-link" href="{{ href }}">{{ p.title }}</a></li>
-      {% endfor %}
-    </ul>
+  <div class="pure-g">
+    <div class="pure-u-1">
+      <img class="pure-img" src="{{site.baseurl}}\assets\img\crashcourse-logo.png" alt="Crash Course Logo">
+    </div>
   </div>
-
 </header>
+
+<div class ="nav-wrapper">
+
+    <div class="nav">
+      <div class="margin">
+  	   <ul id="menu">
+        {%for item in site.nav_pages%}
+          <li>
+            <a class = '{{item.url}}' href="#"><button class = "pure-button buttonStyle {{item.title | downcase}}">{{item.title}}</button></a>
+          </li>
+        {%endfor%}
+      </ul>
+    </div>
+  </div>
+</div>
