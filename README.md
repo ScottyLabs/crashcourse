@@ -1,147 +1,240 @@
-# minima
+# CrashCourse
 
-*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
+This is the site source for TartanHacks CrashCourse. We're using Jekyll to build
+and compile our site. We're not using GitHub Pages, though, because we wanted to
+host the site from <http://tartanhacks.com/crashcourse>.
 
-[Theme preview](https://jekyll.github.io/minima/)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
-![minima theme preview](/screenshot.png)
+- [Local Development](#local-development)
+  - [I want to...](#i-want-to)
+    - [... change the style of the site.](#-change-the-style-of-the-site)
+    - [... add information about a talk.](#-add-information-about-a-talk)
+    - [... add content to the site.](#-add-content-to-the-site)
+- [Production Environment](#production-environment)
+  - [Directory Structure](#directory-structure)
+  - [Deploying](#deploying)
+    - [Troubleshooting](#troubleshooting)
+  - [Dependencies](#dependencies)
+  - [Permissions](#permissions)
+- [License](#license)
 
-## Installation
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Add this line to your Jekyll site's Gemfile:
 
-```ruby
-gem "minima"
+## Local Development
+
+Make sure you have a recent version of Ruby installed and run
+
+```console
+$ gem install bundler
+$ bundle install
 ```
 
-And add this line to your Jekyll site:
-
-```yaml
-theme: minima
-```
-
-And then execute:
-
-    $ bundle
-
-
-## Contents At-A-Glance
-
-Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
-
-### Layouts
-
-Refers to files within the `_layouts` directory, that define the markup for your theme.
-
-  - `default.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says ` {{ content }} ` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`.
-  - `home.html` &mdash; The layout for your landing-page / home-page / index-page.
-  - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
-  - `post.html` &mdash; The layout for your posts.
-
-### Includes
-
-Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
-
-  - `disqus_comments.html` &mdash; Code to markup disqus comment box.
-  - `footer.html` &mdash; Defines the site's footer section.
-  - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
-  - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
-  - `header.html` &mdash; Defines the site's main header section.
-  - `icon-* files` &mdash; Inserts github and twitter ids with respective icons.
-
-### Sass
-
-Refers to `.scss` files within the `_sass` directory that define the theme's styles.
-
-  - `minima.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
-  - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
-  - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
-
-### Assets
-
-Refers to various asset files within the `assets` directory.
-Contains the `main.scss` that imports sass files from within the `_sass` directory. This `main.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
-
-This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.
-
-
-## Usage
-
-### Customization
-
-To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
-e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
-
-The site's default CSS has now moved to a new place within the gem itself, [`assets/main.scss`](assets/main.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
-- Create a new instance of `main.scss` at site source.
-  - Create a new file `main.scss` at `<your-site>/assets/`
-  - Add the frontmatter dashes, and
-  - Add `@import "minima";`, to `<your-site>/assets/main.scss`
-  - Add your custom CSS.
-- Download the file from this repo
-  - Create  a new file `main.scss` at `<your-site>/assets/`
-  - Copy the contents at [assets/main.scss](assets/main.scss) onto the `main.scss` you just created, and edit away!
-- Copy directly from Minima 2.0 gem
-  - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
-  - Copy the `assets/` folder from there into the root of `<your-site>`
-  - Change whatever values you want, inside `<your-site>/assets/main.scss`
-
---
-
-### Change default date format
-
-You can change the default date format by specifying `site.minima.date_format`
-in `_config.yml`.
+If that failed, and you're on OS X, you might have to run this:
 
 ```
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+gem install nokogiri -v 1.6.8.1 -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/libxml2 --use-system-libraries
 ```
 
---
+and then re-run `bundle install`.
 
-### Enabling comments (via Disqus)
+Once you've done that, you can preview the site locally by running
 
-Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
-
-To enable it, add the following lines to your Jekyll site:
-
-```yaml
-  disqus:
-    shortname: my_disqus_shortname
+```console
+$ jekyll serve
 ```
 
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
+This will compile the static files, including all Sass assets. Then, in your
+browser, navigate to <http://localhost:4000/> to view the generated site.
 
-Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
-If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+### I want to...
 
---
+This is a typical Jekyll project. The [Jekyll documentation][jekyll] online is
+really well put together; you should give it a skim. In the mean time, here's a
+list of points where you might want to look:
 
-### Enabling Google Analytics
+#### ... change the style of the site.
 
-To enable Google Anaytics, add the following lines to your Jekyll site:
+Since this is a Jekyll site, the repetitive content is pulled out into
+_templates_. These files are located in `_includes/` and `_layouts/`. Altering
+these files will alter all files based off of them. You can tell if a file is
+based off another file if it includes the line `layout: <something>` or `{%
+include <something> %}` somewhere inside it.
 
-```yaml
-  google_analytics: UA-NNNNNNNN-N
+To change the stylesheets, you should look in `assets/css/`. Here' you'll see
+that we're using Sass, which is a CSS preprocessor. This just means we're using
+a language that compiles to CSS, instead of writing CSS directly. Look it up
+online for more information. The `main.scss` file `@import`s the files which are
+located in the folder `_sass/`. To change the styles, you'll want to change
+the files located in there.
+
+
+#### ... add information about a talk.
+
+First, you'll have to make a talk page:
+
+```
+cd _talks
+mkdir TITLE-OF-TALK
+cat _template.md | sed -e 's/my-fancy-talk/TITLE-OF-TALK/' > TITLE-OF-TALK/index.md
 ```
 
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+Now fill in the template (things like description, title, etc.).
 
-## Contributing
+Finally, add a timeslot for the event by editing `_data/days.yml`. Make sure you
+follow the same structure as what's already there.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+#### ... add content to the site.
 
-## Development
+Any file or folder that doesn't start with an underscore will end up being a
+web page visible to users. To add content, simply create a file that doesn't
+have a leading underscore.
 
-To set up your environment to develop this theme, run `script/bootstrap`.
+Jekyll allows you to write content using Markdown, a language that compiles to
+HTML. You should probably use Markdown, not HTML, to create content.
 
-To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+
+## Production Environment
+
+This site is deployed in production using Nginx on `unix.scottylabs.org`. These
+are the notes related to how it's configured there.
+
+
+### Directory Structure
+
+- `crashcourse.git/`
+  - This is a bare Git repo tracking <https://github.com/ScottyLabs/crashcourse>
+  - It has the `post-receive` hook configured, which is in charge of compiling
+    and deploying the Jekyll site on pushes.
+- `www/`
+  - Jekyll is told to compile our site and is also where nginx looks to serve
+    our site.
+- `.gems/` and `.tmp`
+  - The `post-receive` hook creates some temporary directories in order to make
+    the Jekyll compile times faster. These can be deleted at any time, but the
+    next push will rebuild them (and the rebuild will take longer than normal).
+
+
+### Deploying
+
+You can deploy the CrashCourse site over git push. Since both GitHub and
+production are Git repositories, and Git is distributed, we have to take a bit
+of extra work to keep them in sync. Here's the step-by-step from scratch method
+to get everything set up.
+
+
+First, make sure you've cloned the repo to your laptop somewhere:
+
+```console
+$ git clone https://github/ScottyLabs/crashcourse
+```
+
+Next up we need to tell our laptop's Git repo how to find production. Run these
+commands on your laptop:
+
+```console
+$ git remote add prod ssh://USERNAME@unix.scottylabs.org/opt/github/crashcourse/crashcourse.git
+$ git remote add all https://github/ScottyLabs/crashcourse
+$ git remote set-url --add all ssh://USERNAME@unix.scottylabs.org/opt/github/crashcourse/crashcourse.git
+```
+
+That's it! Here's how you use it:
+
+```console
+# To push to both GitHub and production server
+$ git push all master
+
+# To push only to production server
+$ git push prod master
+
+# To push only to GitHub
+$ git push origin master
+```
+
+Nearly always, you'll want to push to both production and GitHub. The exception
+is if you're opening a pull-request; this you should only push to GitHub. If you
+push to GitHub and not to production, the site becomes out of date!
+
+
+#### Troubleshooting
+
+If you can't push correctly after doing those instructions, make sure you're in
+the `admin` group. See [Permissions](#permissions).
+
+
+#### `post-receive` hook
+
+We're compiling the Jekyll site in production using the `post-receive` Git hook.
+A copy of this hook has been added here for posterity's sake. However, if you
+make changes to the post-receive in this repo, those changes won't be reflected
+in production. You have to copy it there manually.
+
+
+### Dependencies
+
+This site depends on nginx the TartanHacks site's nginx config. In particular,
+it needs to forward traffic coming in through `/crashcourse` to `www/` in this
+folder.
+
+Jekyll depends on `ruby` and `gem` being available, preferably at version 2.0 or
+higher. It also needs ruby-dev for building native extensions. These
+dependencies were met by running
+
+```console
+sudo apt-get install ruby ruby-dev
+```
+
+
+### Permissions
+
+If you did an `ls -l` on `/opt/github/crashcourse`, you might have noticed the
+little '+' sign in the permission listing--that's what this section is here to
+explain.
+
+Permissions are important consideration here because we'd like a few things:
+
+- nginx should be able to read and serve our site
+- the correct users should be able to push & pull from the repository without
+  needing to be root
+
+With this in mind, we're using some cool permissions tricks called ACLs.
+Traditional Unix groups don't quite give us as much flexibility as ACLs do. For
+further reading, you might want to take a look at the [Ubuntu
+documentation][ubuntu-acl] or the [Arch documentation][arch-acl].
+
+When the permissions were initially set up, I used these commands __on our
+server__:
+
+```console
+# Let nginx have it's way with this folder
+$ sudo chown -R www:www /opt/github/crashcourse
+
+# Treat anyone in the admin group (see /etc/group) as an owner
+$ sudo setfacl -R -m g:admin:rwX /opt/github/crashcourse
+```
+
+As a side note, the `X` in `rwX` (as opposed to `rwx`) means "execute only if
+the file is a directory or already has execute permission for some user."
+
+You can verify these by permissions by running:
+
+```console
+$ getfacl /opt/github/crashcourse
+```
+
+
+[ubuntu-acl]: https://help.ubuntu.com/community/FilePermissionsACLs
+[arch-acl]: https://wiki.archlinux.org/index.php/Access_Control_Lists
+
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+MIT License. See LICENSE. (c) 2015 ScottyLabs
+
+
+
+[jekyll]: http://jekyllrb.com/
