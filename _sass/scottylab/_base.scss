@@ -30,7 +30,6 @@ strong {
     text-decoration: underline;
   }
 
-  border-bottom: 15px solid $color-base;
 }
 
 //centers content of page
@@ -38,6 +37,7 @@ strong {
   margin: 0 auto;
   max-width: 50%;
   // border: 5px solid red;
+  border-bottom: 15px solid $button-color;
 }
 
 header{
@@ -60,6 +60,12 @@ h1{
   font-weight: 400;
   margin-top:.67em;
   margin-bottom: 0;
+}
+h3{
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: 1.3em;
+
 }
 
 h6{
@@ -208,8 +214,6 @@ mark{
   }
 }
 
-
-
 //list styling
 
 ol li{
@@ -224,4 +228,19 @@ ol ul{
 ol ul li{
   list-style-position: outside;
   padding-left: 0;
+}
+
+
+//table styling
+table {
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    border-bottom: 1px solid black;
 }

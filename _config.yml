@@ -36,11 +36,11 @@ registration_link: https://docs.google.com/forms/d/e/1FAIpQLSftlGlRHYxpzCC7_cUwN
 # NOTE: These links hard-code the value of site.baseurl!
 nav_pages:
   - title: REGISTER
-    url: register1
+    url: register2
   - title: ABOUT
     url: about1
   - title: SCHEDULE
-    url: '/crashcourse/#schedule'
+    url: schedule1
 about_section:
   - name: register1
   - name: register2
@@ -50,6 +50,7 @@ about_section:
   - name: about4
   - name: about5
   - name: about6
+  - name: schedule1
 
 collections:
   talks:

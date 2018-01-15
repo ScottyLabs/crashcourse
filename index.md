@@ -21,10 +21,10 @@ can make something awesome.
 1. __[Register]({{ site.registration_link }})__
   - You certainly don't have to register to attend, but we like knowing how many
     people to expect and which topics people are interested in learning.
-1. __[Read "The Basics"](#about1)__
+1. <span data-scroll="about1">__[Read "The Basics"](#)__</span>
   - This quick read will introduce you to some common concepts and explain what
     the workshops are about.
-1. __[Pick some workshops!](#schedule)__
+1. <span data-scroll="schedule1">__[Pick some workshops!](#)__</span>
   - Workshops are largely independent of each other: you can attend as many or
     as few as you'd like.
   - In fact, there are tons of them! So many that you probably can't make it to
@@ -194,7 +194,36 @@ and we hope to see you there!
 
 If you have any comments or questions about this guide, please write to info at
 scottylabs dot org.
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+
+<span class="anchor" id="schedule1">
+# Schedule
+
+  All the talks will be held in __WEH 5201 (the Mac Cluster)__.
+
+{% for day in site.data.days %}
+
+### {{ day.date }}
+
+<table class="full-width">
+  <thead>
+    <th>Session</th>
+    <th>Speaker</th>
+    <th>Time</th>
+  </thead>
+  <tbody>
+  {% for talk in day.talks %}
+  {% assign talk_docs = site.talks | where:"name",talk.name %}
+  {% assign talk_doc = talk_docs[0] %}
+    <tr>
+      {% if talk_doc.haspage %}
+        <td><a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
+      {% else %}
+        <td>{{ talk_doc.title }}</td>
+      {% endif %}
+      <td>{{ talk_doc.speaker }}</td>
+      <td>{{ talk.time }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
