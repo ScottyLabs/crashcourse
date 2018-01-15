@@ -12,7 +12,7 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
-
+  
 plugins:
   - jekyll-redirect-from
   - jekyll-autoprefixer
