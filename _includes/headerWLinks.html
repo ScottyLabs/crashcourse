@@ -13,7 +13,7 @@
   	   <ul id="menu">
         {%for item in site.nav_pages%}
           <li>
-            <a class = '{{item.url}}' href="#"><button class = "pure-button buttonStyle {{item.title | downcase}}">{{item.title}}</button></a>
+            <a href="{{site.baseurl}}\#{{item.url}}"><button class = "pure-button buttonStyle {{item.title | downcase}}">{{item.title}}</button></a>
           </li>
         {%endfor%}
       </ul>

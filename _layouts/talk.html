@@ -1,12 +1,19 @@
----
-layout: default
----
-<div class="guide">
-  <div class="guide-content">
-    {% capture preamble %}{% include talk-preamble.md %}{% endcapture %}
-    {{ preamble | markdownify }}
-    {{ content }}
-    {% include footer.html %}
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {% include head.html %}
+
+  <body>
+    <div class="center">
+    {% include headerWLinks.html %}
+
+
+      <div class="wrapper content">
+        {{content}}
+        {% include footer.html %}
+      </div>
+    </div>
+    <script src="{{site.baseurl}}/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="{{site.baseurl}}/assets/js/scriptTalk.js"></script>
+  </body>
+</html>

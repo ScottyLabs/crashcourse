@@ -8,7 +8,7 @@ description: >
   This talk will be interactive: attendees can follow along with the concepts
   introduced in the slides with the companion tutorial. By the end of the
   tutorial, participants will have a custom resume website.
-speaker: Scott Krulcik
+speaker: Andy 
 ---
 
 The HTML and CSS talk will do two things. The first is to show your how to write
@@ -123,5 +123,3 @@ you to create dynamic content by just adding classes to your `<div>` tags.
 - __Chrome Developer Tools__
   View any website's source, and experiment with its CSS using this feature
   in Google Chrome. For Mac, the keyboard shortcut is `CMD+alt+i`.<br/>
-
-

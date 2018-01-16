@@ -12,9 +12,10 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
-
-gems:
+  
+plugins:
   - jekyll-redirect-from
+  - jekyll-autoprefixer
 #whitelist:
 #  - jekyll-redirect-from
 
@@ -34,14 +35,22 @@ registration_link: https://docs.google.com/forms/d/e/1FAIpQLSftlGlRHYxpzCC7_cUwN
 # The order that pages should be displayed int the menu bar
 # NOTE: These links hard-code the value of site.baseurl!
 nav_pages:
-  - title: basics
-  - title: register
-    url: '/crashcourse/#how-do-i-attend'
-  - title: schedule
-    url: '/crashcourse/#schedule'
-  - title: TartanHacks
-    url: http://tartanhacks.com
-
+  - title: REGISTER
+    url: register2
+  - title: ABOUT
+    url: about1
+  - title: SCHEDULE
+    url: schedule1
+about_section:
+  - name: register1
+  - name: register2
+  - name: about1
+  - name: about2
+  - name: about3
+  - name: about4
+  - name: about5
+  - name: about6
+  - name: schedule1
 
 collections:
   talks:
