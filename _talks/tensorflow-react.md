@@ -10,7 +10,7 @@ description: >
   Note that you can use __Markdown__ syntax freely within this block, so feel
   free to emphasize or [insert links](#).
 # Be sure to uncomment and fill this out!
-speaker: Peter and Srinu
+speaker: Peter & Srinu
 ---
 
 

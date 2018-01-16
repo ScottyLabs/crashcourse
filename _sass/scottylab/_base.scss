@@ -118,11 +118,14 @@ ol ul li{
 }
 
 
+
 //table styling
 table {
-    width: 90%;
+    width: 100%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 td, th {
     padding: .625em;
