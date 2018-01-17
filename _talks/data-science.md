@@ -2,6 +2,7 @@
 name: data-science
 title: Data Science
 subtitle: vaguely hipster title
+haspage: false
 description: >
   This should be a one (maybe two) paragraph description of the talk. In my
   particular case, I maybe want to outline what specificly makes my talk fancy,
