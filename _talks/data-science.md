@@ -10,14 +10,15 @@ description: >
   Note that you can use __Markdown__ syntax freely within this block, so feel
   free to emphasize or [insert links](#).
 # Be sure to uncomment and fill this out!
-speaker: John Curcio
+speaker: John
 ---
 
 
-This section can be treated as "below the fold" content. Use it however you
-wish. You may want to elaborate on things people should do before attending,
-more details about what you'll cover, etc. You'll want to link to the resources
-that you reference, or even write up talk notes here.
+Keras is a high-level Python library for neural networks. Its user friendliness and modularity make it well-suited for the rapid prototyping and iteration demanded of a hackathon.
 
-Feel free to write as much as you'd like, and you're free to use the full power
-of Markdown here.
+We'll begin with logistic regression, the simplest of neural networks, to classify handwritten digits in images. Then, we'll tune a pre-trained network to classify dog breeds from image data. With time, we'll discuss methods for audio recognition.
+
+This talk will emphasize certain best practices for building and interpreting the performance of models.
+
+No familiarity with deep learning is required. This workshop will be conducted using Kaggle's online kernels environment, so no installation is required, either.
+
