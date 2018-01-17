@@ -12,12 +12,25 @@ description: >
 # Be sure to uncomment and fill this out!
 speaker: Connie & Rain
 ---
+# P5js
+
+###### A Graphical Sketchpad for JavaScript
+
+p5.js is a Javascript library that makes coding accessible for everyone. It has
+a full set of drawing functionality, so your browser page becomes your
+sketchbook. It greatly simplifies the process of coding visual, interactive web
+programs and has add-on libraries that allow interaction with other DOM objects
+such as text, input, video, webcam and sound.
+
+Participants will learn the basics of p5.js through interactive examples, and
+a longer lab session at the end where they will create their own mini p5.js
+project!
+
+The slides (and labs) can be found [here](http://tinyurl.com/p5js-webdev).
 
 
-This section can be treated as "below the fold" content. Use it however you
-wish. You may want to elaborate on things people should do before attending,
-more details about what you'll cover, etc. You'll want to link to the resources
-that you reference, or even write up talk notes here.
+### Prerequisites
 
-Feel free to write as much as you'd like, and you're free to use the full power
-of Markdown here.
+Basic coding abilities, especially with JavaScript, will be helpful, but is not
+necessary. This talk is meant for anyone interested in creative computing and
+web development.
