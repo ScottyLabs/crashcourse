@@ -61,6 +61,13 @@ h1{
   margin-top:.67em;
   margin-bottom: 0;
 }
+
+h2{
+  text-align: center;
+  line-height: 1.2;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 h3{
   padding-bottom: 1em;
   padding-top: 1em;
@@ -87,7 +94,10 @@ mark{
   // border: 1px dashed green;
   margin-right: 10%;
 }
-
+.fullLength{
+  @include color-mixin($button-color,$button-active-color);
+  margin-top: 5em;
+}
 .anchor{
    display:block;
    height:50px; /* this is the height of your header */
@@ -103,19 +113,20 @@ mark{
 
 //list styling
 
-ol li{
+.fullLength li,ol li{
   padding: 0;
   list-style-position: inside;
 }
 
-ol ul{
+.fullLength ul, ol ul{
   margin-left: 2.5em;
 }
 
-ol ul li{
+.fullLength ul li, ol ul li{
   list-style-position: outside;
   padding-left: 0;
 }
+
 
 
 

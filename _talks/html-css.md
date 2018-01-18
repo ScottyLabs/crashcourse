@@ -8,8 +8,11 @@ description: >
   This talk will be interactive: attendees can follow along with the concepts
   introduced in the slides with the companion tutorial. By the end of the
   tutorial, participants will have a custom resume website.
-speaker: Andy 
+speaker: Andy
 ---
+
+# Introduction to HTML & CSS
+###### build informative websites
 
 The HTML and CSS talk will do two things. The first is to show your how to write
 HTML and CSS code that will render a webpage just the way you want. The second
@@ -17,7 +20,7 @@ is to give you a basic understanding of the structure of webpages, known as the
 DOM. Both are important if you would like to learn to make more interactive
 websites using JavaScript.
 
-## How to Attend
+### How to Attend
 
 No prior web development experience is required. Familiarity with programming in
 general is certainly useful but by no means required.
@@ -30,18 +33,18 @@ Sublime Text, Notepad++ or Vim, feel free to use that editor instead.
 development. While we won't be covering how to use it, it is a good thing to
 check out if you intend to do a lot of web development in the future.
 
-## Following Along with the Talk
+### Following Along with the Talk
 
 To follow along, go to the
-[demo website](https://skrulcik.github.io/WDW_HTMLCSS/). As we introduce new
+[demo website](https://scottylabs.org/wdw-htmlcss/). As we introduce new
 topics during the talk, the companion website will show you examples of source
 code and its output to illustrate concepts.
 
-The slides can be found [here](https://skrulcik.github.io/WDW_HTMLCSS/HTMLCSS.pdf).
+The slides can be found [here](https://scottylabs.org/wdw-htmlcss/HTMLCSS.pdf).
 
 ---
 
-##  External References
+###  External References
 
 These resources are great places to look for information on your own, after the
 talk.
@@ -57,6 +60,7 @@ talk.
       Tutorial](http://www.w3schools.com/css/default.asp) - [CSS
       Properties](http://www.w3schools.com/cssref/default.asp) - [CSS
       Selectors](http://www.w3schools.com/cssref/css_selectors.asp)
+
   - __TutorialsPoint__<br/>
       Usually has more in-depth explanations than W3Schools, so might be better
       if you really want to learn a lot about a topic. The tutorial is verbose
@@ -65,6 +69,7 @@ talk.
       a detailed lesson on a particular thing, TutorialsPoint is perfect.<br/>
       [CSS](http://www.tutorialspoint.com/css/) -
       [HTML](http://www.tutorialspoint.com/html/)
+
   - __CodeAcademy__<br/>
       Step by step instructions, with rendered content on the side. CodeAcademy
       has a nice learning environment, but I find it gives you too much help,
@@ -77,6 +82,7 @@ talk.
       With absolutely no knowledge of color theory, you can generate some really
       satisfying color palettes from this site. Just copy the hex colors into
       your CSS.<br/>[Adobe Color](https://color.adobe.com)
+
   - __Google Fonts__<br/>
       Free web fonts that save you a bunch of time and can be loaded from
       Google's servers, reducing the strain on your machines. With Google Fonts,
@@ -101,6 +107,7 @@ you to create dynamic content by just adding classes to your `<div>` tags.
   a large set of icons to use with it. Check out the vertical align helper
   class. Doing vertical align in CSS is so much easier with Materialize than
   with custom CSS.<br/> [Materialize](https://materializecss.com)
+
 - __Bootstrap__<br/>
   Before Materialize, this was the go-to framework for making things look
   less shitty with minimal effort. It is older than Materialize so has a lot
@@ -115,11 +122,13 @@ you to create dynamic content by just adding classes to your `<div>` tags.
   Awesome, lightweight web development environment with support for live
   previews!! Highly recommended for creating websites quickly; stop wasting
   time refreshing Google Chrome.<br/> [Brackets](https://brackets.io)
+
 - __CodePen__<br/>
   In-browser Web Dev playground that lets you work with HTML, CSS, and JS
   simultaneously. This is great for messing around and fiddling with CSS in
   a localized environtment, rather than your entire webpage.<br/>
   [CodePen](https://codepen.io)
+
 - __Chrome Developer Tools__
   View any website's source, and experiment with its CSS using this feature
   in Google Chrome. For Mac, the keyboard shortcut is `CMD+alt+i`.<br/>

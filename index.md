@@ -216,7 +216,7 @@ scottylabs dot org.
   {% assign talk_doc = talk_docs[0] %}
     <tr>
       {% if talk_doc.haspage %}
-        <td><a>{{ talk_doc.title }}</a></td>
+        <td><a a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
       {% else %}
         <td>{{ talk_doc.title }}</td>
       {% endif %}

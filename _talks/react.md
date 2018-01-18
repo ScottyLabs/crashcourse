@@ -1,6 +1,6 @@
 ---
 name: react
-title: React.js
+title: React
 subtitle: facebook's ever-hyped JavaScript framework
 description: >
   JavaScript frameworks let you collect and structure your code to enable you to
@@ -14,15 +14,7 @@ description: >
 speaker: Shalom
 ---
 
+# React
+###### Facebook's ever-hyped JavaScript framework
 
-This talk assumes that you've programmed in JavaScript before. You don't have to
-be an absolute expert, but familiarity with the syntax will be somewhat assumed.
-This is because React itself introduces a new syntax _on top_ of JavaScript
-itself, and it'd be quite confusing to have to differentiate what's normal and
-what's new.
-
-### Slides
-
-You can follow along with the talk using [these slides][1].
-
-[1]: slides.pdf
+So you know how to make static HTML websites. You write a CSS style sheet like no body's business. But how do you make complex websites that respond to the user's input? This is where react excels. Learn about the virtual DOM, React components, and JSX in order to simple painless interactive UIs.
