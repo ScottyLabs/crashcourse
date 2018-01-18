@@ -6,7 +6,7 @@
       time: '4:30 p.m.'
     - name: dinner
       time: '6:00 p.m.'
-    - name: p5-Aframe
+    - name: p5.js
       time: '6:30 p.m.'
 - date: Sunday, Jan 28
   talks:
@@ -36,5 +36,5 @@
       time: '4:30 p.m.'
     - name: dinner
       time: '6:00 p.m.'
-    - name: p5-Aframe
+    - name: p5.js
       time: '6:30 p.m.'
