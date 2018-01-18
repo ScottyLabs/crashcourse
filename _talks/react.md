@@ -18,3 +18,11 @@ speaker: Shalom
 ###### Facebook's ever-hyped JavaScript framework
 
 So you know how to make static HTML websites. You write a CSS style sheet like no body's business. But how do you make complex websites that respond to the user's input? This is where react excels. Learn about the virtual DOM, React components, and JSX in order to simple painless interactive UIs.
+=======
+So you know how to make static HTML websites. You write a CSS style sheet like no body's business. But how do you make complex websites that respond to the user's input? This is where react excels. Learn about the virtual DOM, React components, and JSX in order to simple painless interactive UIs.
+
+### Slides
+
+Last year's slides can be found [here][1].
+
+[1]: slides.pdf

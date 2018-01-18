@@ -25,3 +25,4 @@ We'll begin with logistic regression, the simplest of neural networks, to classi
 This talk will emphasize certain best practices for building and interpreting the performance of models.
 
 No familiarity with deep learning is required. This workshop will be conducted using Kaggle's online kernels environment, so no installation is required, either.
+
