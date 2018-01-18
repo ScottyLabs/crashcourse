@@ -1,29 +1,11 @@
 ---
 name: tensorflow
-title: Deep Learning with Tensorflow
-subtitle: state of the art machine learning at your fingertips
-description: >
-    Deep learning is a word thrown around a lot nowadays, but what is it really?
-    What is an artificial neural network? We will be learning the basics of what
-    a neural network is, and then implement and train a very simple model to
-    classify handwritten digits using python and TensorFlow.
-speaker: Brian Pugh
+title: Tensorflow
+speaker: Peter and Srinu
 ---
 
-## How to Attend
+# TensorFlow
+###### An open-source software library for Machine Intelligence
 
-- Bring a computer with Python 3.5 and TensorFlow (CPU version is fine) installed.
-- We recommend the Anaconda route for installing python and TensorFlow.
-- If installing TensorFlow in a conda virtual environment (recommended), make sure to install the Spyder IDE within that environment with the command:
-    ```
-    conda install –n tensorflow spyder
-    ```
-
-Prior python knowledge is preferred, but not absolutely required.
-
-_This talk is given in partnership with the Computer Vision Club_
-
-## Resources
-
-- [Slides (pdf)](../assets/tensorflow/deep-learning-with-tensorflow.pdf)
-- [Slides (pptx)](../assets/tensorflow/deep-learning-with-tensorflow.pptx)
+We’ll go over the basics of using TensorFlow in Python. The bulk of the talk will go over how to create a digit recognizer, i.e. a network that can recognize images of the numbers 0 through 9. In the process, we’ll go over terms in machine learning, including cost functions and backpropagation. If we have time, we’ll go over how to implement other machine learning techniques in TensorFlow.
+No machine learning experience is required. It’d be helpful if the attendees are familiar with Python. It would also help if they install TensorFlow beforehand.
