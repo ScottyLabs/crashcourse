@@ -8,12 +8,41 @@ subject: basics
 ###### let's get ready for TartanHacks
 
 CrashCourse is a collection of talks and workshops designed to help you make the
-most of TartanHacks. Topics range from web programming to game design to
-mobile apps and more.
+most of TartanHacks. Topics range from web programming and React to data science and machine learning with TensorFlow and even advertising your product!
 
-The talks are all student-led and focused on hands-on activities. They're
-designed to launch you right into the midst of app and game development so you
-can make something awesome.
+The talks are all student-led and focused on hands-on activities. They're designed to launch you right into the midst of development so you can make something awesome.
+
+# Schedule
+
+  All the talks will be held in __WEH 5201 (the Mac Cluster)__.
+
+{% for day in site.data.days %}
+
+### {{ day.date }}
+
+<table class="full-width">
+  <thead>
+    <th>Session</th>
+    <th>Speaker</th>
+    <th>Time</th>
+  </thead>
+  <tbody>
+  {% for talk in day.talks %}
+  {% assign talk_docs = site.talks | where:"name",talk.name %}
+  {% assign talk_doc = talk_docs[0] %}
+    <tr>
+      {% if talk_doc.haspage %}
+        <td><a a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
+      {% else %}
+        <td>{{ talk_doc.title }}</td>
+      {% endif %}
+      <td>{{ talk_doc.speaker }}</td>
+      <td>{{ talk.time }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
 
 <span class="anchor" id="register2">
 # How do I attend?
@@ -196,34 +225,4 @@ If you have any comments or questions about this guide, please write to info at
 scottylabs dot org.
 
 <span class="anchor" id="schedule1">
-# Schedule
 
-  All the talks will be held in __WEH 5201 (the Mac Cluster)__.
-
-{% for day in site.data.days %}
-
-### {{ day.date }}
-
-<table class="full-width">
-  <thead>
-    <th>Session</th>
-    <th>Speaker</th>
-    <th>Time</th>
-  </thead>
-  <tbody>
-  {% for talk in day.talks %}
-  {% assign talk_docs = site.talks | where:"name",talk.name %}
-  {% assign talk_doc = talk_docs[0] %}
-    <tr>
-      {% if talk_doc.haspage %}
-        <td><a a href="{{ site.baseurl }}{{ talk_doc.url | remove: 'index.html' }}">{{ talk_doc.title }}</a></td>
-      {% else %}
-        <td>{{ talk_doc.title }}</td>
-      {% endif %}
-      <td>{{ talk_doc.speaker }}</td>
-      <td>{{ talk.time }}</td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
-{% endfor %}
