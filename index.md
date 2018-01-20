@@ -13,6 +13,7 @@ most of TartanHacks. Topics range from web programming and React to data science
 The talks are all student-led and focused on hands-on activities. They're designed to launch you right into the midst of development so you can make something awesome.
 
 
+
 <span class="anchor" id="schedule1">
 # Schedule
 
@@ -226,3 +227,4 @@ and we hope to see you there!
 
 If you have any comments or questions about this guide, please write to info at
 scottylabs dot org.
+
