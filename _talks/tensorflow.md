@@ -1,7 +1,7 @@
 ---
 name: tensorflow
 title: Tensorflow
-speaker: Peter and Srinu
+speaker: Peter & Srinu
 ---
 
 # TensorFlow
