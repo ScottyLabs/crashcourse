@@ -12,6 +12,8 @@ most of TartanHacks. Topics range from web programming and React to data science
 
 The talks are all student-led and focused on hands-on activities. They're designed to launch you right into the midst of development so you can make something awesome.
 
+
+<span class="anchor" id="schedule1">
 # Schedule
 
   All the talks will be held in __WEH 5201 (the Mac Cluster)__.
@@ -191,6 +193,7 @@ Prototypes are like rough drafts. With prototypes, users can actually interact
 with an interface, though it still may be rough and clunky. Prototypes are
 valuable because they can identify problems before developers take the time to
 implement a full design, which can save engineering resources.
+
 <span class="anchor" id="about6">
 # Deployment
 
@@ -223,6 +226,3 @@ and we hope to see you there!
 
 If you have any comments or questions about this guide, please write to info at
 scottylabs dot org.
-
-<span class="anchor" id="schedule1">
-

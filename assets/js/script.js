@@ -6,7 +6,7 @@ var $schedule = $('.schedule');
 var $dots = $('.dots');
 // find original navigation bar position
 var navPos = $navBar.offset().top;
-var register1 = $('#register1').offset().top;
+var register2 = $('#register2').offset().top;
 var about1 = $('#about1').offset().top;
 var about2 = $('#about2').offset().top;
 var about3 = $('#about3').offset().top;
@@ -14,6 +14,7 @@ var about4 = $('#about4').offset().top;
 var about5 = $('#about5').offset().top;
 var about6 = $('#about6').offset().top;
 var schedule1 = $('#schedule1').offset().top;
+
 // on scroll
 $(window).scroll(function() {
     // get scroll position from top of the page
@@ -22,7 +23,6 @@ $(window).scroll(function() {
     // check if scroll position is >= the nav position
     if (scrollPos >= navPos) {
         $navBar.addClass('fixed');
-        $register.addClass('changeButton');
         $dots.css({"visibility":"visible","opacity":1});
         $('.wrapper .anchor').each(function(i) {
            if ($(this).offset().top <= scrollPos+40) {
@@ -30,27 +30,28 @@ $(window).scroll(function() {
                $('.dots li').eq(i).addClass('active');
            }
         });
-        if (about1 <= scrollPos+60 && schedule1 > scrollPos+60){
-          $register.removeClass('changeButton');
-          $about.addClass('changeButton');
-          $schedule.removeClass('changeButton');
-        }
-        if (schedule1 <= scrollPos+60){
-          $about.removeClass('changeButton');
+        if (schedule1 <= scrollPos+60 && register2 > scrollPos+60){
           $schedule.addClass('changeButton');
+          $about.removeClass('changeButton');
           $register.removeClass('changeButton');
         }
-        if (scrollPos >= navPos && about1 > scrollPos+60){
-          $about.removeClass('changeButton');
-          $schedule.removeClass('changeButton');
+        if (register2<= scrollPos+60){
           $register.addClass('changeButton');
+          $schedule.removeClass('changeButton');
+          $about.removeClass('changeButton');
+        }
+        if (about1<=scrollPos+60){
+          $about.addClass('changeButton');
+          $register.removeClass('changeButton');
+          $schedule.removeClass('changeButton');
+        } if(schedule1 > scrollPos+60){
+          $schedule.removeClass('changeButton');
         }
 
     } else{
         $navBar.removeClass('fixed');
-        $register.removeClass('changeButton');
         $dots.css({"visibility":"hidden","opacity":0});
-        $('.active').removeClass('active')
+        $('.active').removeClass('active');
     }
 
 });
