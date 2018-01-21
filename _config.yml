@@ -12,7 +12,7 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
-  
+
 plugins:
   - jekyll-redirect-from
   - jekyll-autoprefixer
@@ -35,14 +35,15 @@ registration_link: https://docs.google.com/forms/d/e/1FAIpQLSftlGlRHYxpzCC7_cUwN
 # The order that pages should be displayed int the menu bar
 # NOTE: These links hard-code the value of site.baseurl!
 nav_pages:
+  - title: SCHEDULE
+    url: schedule1
   - title: REGISTER
     url: register2
   - title: ABOUT
     url: about1
-  - title: SCHEDULE
-    url: schedule1
 about_section:
   - name: register1
+  - name: schedule1
   - name: register2
   - name: about1
   - name: about2
@@ -50,7 +51,7 @@ about_section:
   - name: about4
   - name: about5
   - name: about6
-  - name: schedule1
+
 
 collections:
   talks:
