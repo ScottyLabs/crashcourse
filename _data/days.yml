@@ -30,7 +30,7 @@
       time: '6:30 p.m.'
 - date: Sunday, Feb 4
   talks:
-    - name: tensorflow
+    - name: opencv
       time: '3:00 p.m.'
     - name: google-cloud
       time: '4:30 p.m.'

@@ -11,17 +11,12 @@ description: >
 
     We will cover 3D Stereo Reconstruction, Optical Character Recognition and
     Face Detection.
-speaker: Bhav
+speaker: Peter & Srinu
 ---
 
-## How to Attend
+# Computer Vision with OpenCV
+###### See things in a whole new way
 
-[Install OpenCV 2.4.9](http://opencv.org/downloads.html)
+OpenCV is an open source image processing library commonly used in computer vision. It provides a set of optimized algorithms for all kinds of computer vision tasks, like object recognition, background / foreground detection, color filtering, and more. It is used by many companies, including Google, Microsoft, Intel, Sony, and more.
 
-[Install Python >= 2.7](https://www.python.org/downloads/)
-
-Code will be uploaded on Github and office hours will be held for further clarification after.
-This will be a fairly advanced course so familiarity with python would be useful. Feel free to attend regardless since the code will be up on github.
-
-_This talk is given in partnership with the Computer Vision Club_
-
+Visit our OpenCV talk to learn more about the wonderful applications of Computer Vision and how it can be used in your own project. We will explain how to set up OpenCV with Python, how to use filters, and how OpenCV can be integrated with other tools, like Augmented Reality and Tensorflow. Hope to see you there!
