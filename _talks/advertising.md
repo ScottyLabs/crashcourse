@@ -22,3 +22,12 @@ This talk teaches participants how to correctly and efficiently spread the word 
 
 This is a non-medium specific talk on advertising. Following this presentation, participants will have the ability to create still advertisings, such as flyers and pamphlets, to time-based advertisings like videos.
 
+### Resources
+
+[Slides](https://drive.google.com/open?id=1wJD36WwHXEe3Lp8wtEE-_yKpSXwOT4ne)
+
+[Product image for lab](https://drive.google.com/open?id=1389ZKeaA8of7OX6bN0ULojQa2OhVK3XS)
+
+[Product video for the lab](https://drive.google.com/open?id=15d5zjADzFf1qiUH_zBoY_rXBp_dgcAYd)
+
+All three require a CMU login - email [hello@scottylabs.org](mailto:hello@scottylabs.org) if you don't have one and would like to view the resources.
