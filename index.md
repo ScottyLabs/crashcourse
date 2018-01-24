@@ -213,8 +213,8 @@ application.
 
 ###### where to go from here
 
-Thank you for reading this guide, and we hope that you will join us for Web Dev
-Weekend, being held on November 7th and 8th!
+Thank you for reading this guide, and we hope that you will join us for Crash
+Course on January 27th and 28th and February 3rd and 4th!
 
 We’ve specifically designed the workshops so that they can be taken in any
 order, although we recommend taking the deployment workshop after you’ve
