@@ -19,7 +19,10 @@ speaker: Shalom
 
 So you know how to make static HTML websites. You write a CSS style sheet like no body's business. But how do you make complex websites that respond to the user's input? This is where React excels. Learn about the virtual DOM, React components, and JSX in order to create simple painless interactive UIs.
 
+
 #### Slides
+Talk Slides can be found here [here](https://docs.google.com/presentation/d/1y5qssBx13GuFUZR7F6ramtVUZlO2VyCKLU89uUvgC28/edit?usp=sharing)
+#### Old Slides
 Last year's slides can be found [here][1].
 
 [1]: slides.pdf
