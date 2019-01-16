@@ -8,7 +8,7 @@ description: >
   This talk will be interactive: attendees can follow along with the concepts
   introduced in the slides with the companion tutorial. By the end of the
   tutorial, participants will have a custom resume website.
-speaker: Andy
+speaker: Andy Gao
 ---
 
 # Introduction to HTML & CSS
