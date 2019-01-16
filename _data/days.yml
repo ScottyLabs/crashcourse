@@ -10,7 +10,7 @@
       time: '8:00 p.m.'
 - date: Saturday, Feb 2
   talks:
-    - name: intro-to-react
+    - name: react
       time: '3:00 p.m.'
     - name: angular-typescript
       time: '4:30 p.m.'
