@@ -11,7 +11,7 @@ description: >
   By not conflating these goals, React enables developers to write even very
   complicated apps without having to struggle managing the weight of complicated
   business logic.
-speaker: Andy
+speaker: Andy Gao
 ---
 
 # React
