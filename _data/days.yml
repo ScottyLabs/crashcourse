@@ -10,7 +10,7 @@
       time: '8:00 p.m.'
 - date: Saturday, Feb 2
   talks:
-    - name: react
+    - name: flutter
       time: '3:00 p.m.'
     - name: angular-typescript
       time: '4:30 p.m.'
@@ -18,3 +18,5 @@
       time: '6:00 p.m.'
     - name: progressive-web-apps
       time: '6:30 p.m.'
+    - name: react
+      time: '8:00 p.m.'
