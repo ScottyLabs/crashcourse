@@ -4,7 +4,7 @@ title: Progressive Web Apps
 subtitle: Building progressive web apps
 description: >
   coming soon!
-speaker:Richard Guo
+speaker: Richard Guo
 ---
 
 Coming soon!
