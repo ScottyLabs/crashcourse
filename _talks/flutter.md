@@ -8,7 +8,6 @@ speaker: Akshath Jain
 ---
 
 # Flutter Workshop
-## Crash Course 2019
 ###### Learn to make beautiful, native apps for Android & iOS
 
 Flutter is a cross-platform, mobile development framework created by Google. With user-centric design in mind, Flutter allows developers to create beautiful native apps on iOS and Android from a single codebase.
