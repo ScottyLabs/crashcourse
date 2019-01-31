@@ -1,5 +1,4 @@
 ---
-layout: guide
 title: 'HTML & CSS for the JS Lab'
 subject: javascript
 ---

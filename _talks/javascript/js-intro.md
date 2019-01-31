@@ -1,5 +1,4 @@
 ---
-layout: guide
 title: JavaScript Intro
 subject: javascript
 ---

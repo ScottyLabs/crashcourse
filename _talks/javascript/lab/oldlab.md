@@ -1,5 +1,4 @@
 ---
-layout: guide
 title: JavaScript Lab
 subject: javascript
 ---
