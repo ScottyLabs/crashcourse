@@ -45,7 +45,7 @@ If you attend this workshop, we'll work through all of these resources to help
 you complete a fun JavaScript project!
 
 1. [Introduction to JavaScript Slides](https://wafflecohn.github.io/javascript-lab/intro-javascript-slides.pdf)
-1. [HTML & CSS Recap]({{ site.baseurl }}/avascript/html-css/)
+1. [HTML & CSS Recap]({{ site.baseurl }}/javascript/html-css/)
 1. [JavaScript Lab]({{ site.baseurl }}/javascript/lab/)
 1. [Demo of Final Project](https://wafflecohn.github.io/javascript-lab/)
 1. [Source code of Final Project](https://github.com/WaffleCohn/javascript-lab)
