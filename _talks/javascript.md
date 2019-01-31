@@ -1,6 +1,6 @@
 ---
 name: javascript
-title: Javascript
+title: JavaScript
 subtitle: vaguely hipster title
 description: >
   This should be a one (maybe two) paragraph description of the talk. In my
