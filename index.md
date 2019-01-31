@@ -17,7 +17,7 @@ The talks are all student-led and focused on hands-on activities. They're design
 <span class="anchor" id="schedule1">
 # Schedule
 
-  All the talks will be held in __WEH 5201 (the Mac Cluster)__.
+  All Friday talks will be held in __WEH 5201 (the Mac Cluster)__. All Saturday talks will be held in __CYH 100A (Mac cluster)__.
 
 {% for day in site.data.days %}
 
