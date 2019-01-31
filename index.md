@@ -106,7 +106,7 @@ dive a little deeper into these areas.
 
 The frontend of a web application is everything that ends up running in the
 browser. It is written in three main languages, <mark>HTML</mark>, <mark>CSS</mark>, and
-<mark>Javascript</mark>.
+<mark>JavaScript</mark>.
 
 HTML and CSS store information about a page. HTML contains the <mark>content</mark>,
 which could include text, images, videos, and any number of other things.
