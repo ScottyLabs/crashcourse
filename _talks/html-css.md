@@ -41,6 +41,7 @@ topics during the talk, the companion website will show you examples of source
 code and its output to illustrate concepts.
 
 The slides can be found [here](https://scottylabs.org/wdw-htmlcss/HTMLCSS.pdf).
+The link to the the Lab can be found [here](https://docs.google.com/document/d/1p5rpkYiPJniWMpCdGZDb5PUg1HF7DKtHaIx__9JTt0A/edit?usp=sharing).
 
 ---
 
