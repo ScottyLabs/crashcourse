@@ -19,10 +19,10 @@ and show you how to integrate it into your current workflow!
 
 ### How to Attend
 
-This workshop assumes no prior knowledge of Git, though we hope that both
+This talk assumes no prior knowledge of Git, though we hope that both
 novices and Git veterans alike will learn something from it. Terminal experience
 is recommended, but not required (it will help to know how to `cd` and `ls`).
-Please come with Git installed. The instructions to do so can be found below.
+The instructions to install Git can be found below.
 
 
 ### Git Installation
@@ -30,10 +30,8 @@ Please come with Git installed. The instructions to do so can be found below.
 Learn how to install Git for your operating system
 [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-### Slides & Code
-Here are the workshop
-[slides](https://docs.google.com/presentation/d/1EiaAhpejfbpuVZIMGkIALwo529CgBuI73mKSMjTwjzo/edit?usp=sharing)
-and the [lab](https://github.com/crcmowry/git-lab).
+### Slides
+[Here](https://docs.google.com/presentation/d/1EiaAhpejfbpuVZIMGkIALwo529CgBuI73mKSMjTwjzo/edit?usp=sharing) are the slides.
 
 ### Helpful Resources
 - [Learn Git Branching](https://learngitbranching.js.org/)
