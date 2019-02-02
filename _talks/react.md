@@ -28,4 +28,4 @@ Slides from two years ago can be found [here][1].
 [1]: slides.pdf
 
 #### More Resources
--[React's Documentation Page](https://reactjs.org/docs/getting-started.html)
+- [React's Documentation Page](https://reactjs.org/docs/getting-started.html)
