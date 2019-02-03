@@ -30,5 +30,5 @@ Benefits:
 
 The presentation will teach you some of the basic concepts regarding PWAs such as App Manifests and Service Workers, while the lab will show you how to host and deploy your very own Progressive Web App using Firebase!
 
-LAB: [here] (https://github.com/richardg999/progressive-web-app-tutorial)
+LAB: [here](https://github.com/richardg999/progressive-web-app-tutorial)
 Slides: [here](https://drive.google.com/file/d/1ft9mqPzsqVWwvgqnZD4juMC15L6uZlC8/view)
