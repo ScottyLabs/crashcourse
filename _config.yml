@@ -4,8 +4,8 @@ description: >
   A collection of talks and workshops designed to help you make the most of
   TartanHacks. Topics range from web programming, to game design, to mobile
   apps, and more.
-baseurl: "/crashcourse"
-url: "https://scottylabs.org"
+baseurl: ""
+url: "https://crashcourse.scottylabs.org"
 
 exclude:
   - README.md
