@@ -12,8 +12,6 @@ most of TartanHacks. Topics range from web programming and React to data science
 
 The talks are all student-led and focused on hands-on activities. They're designed to launch you right into the midst of development so you can make something awesome.
 
-
-
 <span class="anchor" id="schedule1">
 # Schedule
 
@@ -53,9 +51,9 @@ The talks are all student-led and focused on hands-on activities. They're design
 1. __[Register]({{ site.registration_link }})__
   - You certainly don't have to register to attend, but we like knowing how many
     people to expect and which topics people are interested in learning.
-1. <span data-scroll="about1">__[Read "The Basics"](#)__</span>
+<!--1. <span data-scroll="about1">__[Read "The Basics"](#)__</span>
   - This quick read will introduce you to some common concepts and explain what
-    the workshops are about.
+    the workshops are about.-->
 1. <span data-scroll="schedule1">__[Pick some workshops!](#)__</span>
   - Workshops are largely independent of each other: you can attend as many or
     as few as you'd like.
@@ -64,7 +62,7 @@ The talks are all student-led and focused on hands-on activities. They're design
     deciding which to go to, first decide whether you'd like to learn to make
     web sites or mobile apps, and go from there.
 
-<span class="anchor" id="about1">
+<!--<span class="anchor" id="about1">
 # The Basics
 
 ###### read on as we demystify web and app development and prepare you for your first workshop
@@ -207,14 +205,14 @@ whole world can interact with it. It is a very important step, but it can be
 complicated because software is often not developed in the same environment it
 is deployed in. Deploying and running a webapp is generally called
 __operations__, and it’s an important step in the life cycle of creating a web
-application.
+application.-->
 
 # Attending More Workshops
 
 ###### where to go from here
 
-Thank you for reading this guide, and we hope that you will join us for Crash
-Course on January 27th and 28th and February 3rd and 4th!
+<!--Thank you for reading this guide, and we hope that you will join us for Crash
+Course on January 27th and 28th and February 3rd and 4th!-->
 
 We’ve specifically designed the workshops so that they can be taken in any
 order, although we recommend taking the deployment workshop after you’ve
