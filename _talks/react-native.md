@@ -1,5 +1,5 @@
 ---
-name: react
+name: react-native
 title: React Native
 subtitle: facebook's ever-hyped JavaScript framework
 description: >
