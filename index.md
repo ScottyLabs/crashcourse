@@ -51,9 +51,6 @@ The talks are all student-led and focused on hands-on activities. They're design
 1. __[Register]({{ site.registration_link }})__
   - You certainly don't have to register to attend, but we like knowing how many
     people to expect and which topics people are interested in learning.
-<!--1. <span data-scroll="about1">__[Read "The Basics"](#)__</span>
-  - This quick read will introduce you to some common concepts and explain what
-    the workshops are about.-->
 1. <span data-scroll="schedule1">__[Pick some workshops!](#)__</span>
   - Workshops are largely independent of each other: you can attend as many or
     as few as you'd like.

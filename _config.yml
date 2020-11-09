@@ -38,9 +38,9 @@ nav_pages:
   - title: SCHEDULE
     url: schedule1
   - title: REGISTER
-    url: register2
-  - title: ABOUT
-    url: about1
+    url: https://forms.gle/Cq2oZQVeTbeCpqy18
+  - title: ZOOM
+    url: href.scottylabs.org/cc-zoom
 about_section:
   - name: register1
   - name: schedule1

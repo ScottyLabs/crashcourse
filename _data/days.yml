@@ -1,4 +1,4 @@
-- date: Friday, Nov 14
+- date: Saturday, Nov 14
   talks:
     - name: html-css
       time: '4:30 p.m.'
@@ -8,7 +8,7 @@
       time: '6:30 p.m.'
     - name: git
       time: '8:00 p.m.'
-- date: Saturday, Nov 15
+- date: Sunday, Nov 15
   talks:
     - name: flutter
       time: '3:00 p.m.'
