@@ -4,8 +4,8 @@ title: The Basics
 subject: basics
 ---
 <span class="anchor" id="register1">
-# CrashCourse
-###### let's get ready for TartanHacks
+# Crash Course
+###### Let's get ready for TartanHacks!
 
 CrashCourse is a collection of talks and workshops designed to help you make the
 most of TartanHacks. Topics range from web programming and React to data science and machine learning with TensorFlow and even advertising your product!
@@ -206,7 +206,7 @@ application.-->
 
 # Attending More Workshops
 
-###### where to go from here
+###### Where to go from here
 
 <!--Thank you for reading this guide, and we hope that you will join us for Crash
 Course on January 27th and 28th and February 3rd and 4th!-->
