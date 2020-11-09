@@ -7,7 +7,7 @@ description: >
   applications. In this talk we will introduce you to iOS development, and walk
   you through building your first app. By the end of the talk, you will be able
   to build your own app for TartanHacks!
-speaker: Scott Krulcik
+speaker: Olivia Corrodi
 ---
 
 _Note this talk is part two of a two-part series on Swift and iOS development.

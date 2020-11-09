@@ -1,22 +1,18 @@
 - date: Saturday, Nov 14
   talks:
-    - name: html-css
-      time: '4:30 p.m.'
-    - name: dinner
-      time: '6:00 p.m.'
-    - name: javascript
-      time: '6:30 p.m.'
-    - name: git
-      time: '8:00 p.m.'
+    - name: ios-dev
+      time: '1 pm'
+    - name: flutter
+      time: '2 pm'
+    - name: android-dev
+      time: '3 pm'
+    - name: react-native
+      time: '4 pm'
 - date: Sunday, Nov 15
   talks:
-    - name: flutter
-      time: '3:00 p.m.'
-    - name: angular-typescript
-      time: '4:30 p.m.'
-    - name: dinner
-      time: '6:00 p.m.'
-    - name: progressive-web-apps
-      time: '6:30 p.m.'
-    - name: react
-      time: '8:00 p.m.'
+    - name: pytorch
+      time: '1 pm'
+    - name: blockchain
+      time: '2 pm'
+    - name: postman
+      time: '3 pm'
