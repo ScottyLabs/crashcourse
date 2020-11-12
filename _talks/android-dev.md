@@ -17,9 +17,13 @@ description: >
 speaker: Sruti Srinidhi
 ---
 
+## Before the Talk
+
 This talk is targeted towards those who know the basics of programming, but with
 little or no experience in Android development. Some experience with Java or a
 similar object-oriented programming language is recommended.
+
+## Installation
 
 You'll need to have following:
 
@@ -28,3 +32,8 @@ You'll need to have following:
   images for the most recent version of Android (the site will walk you through
   this)
 - (optional) An Android phone and USB cable to test your app on a real phone!
+
+### Resources
+- [Android Studios][https://developer.android.com/studio]
+- [Android Studios Blog][https://android-developers.googleblog.com/2020/05/android-studio-4.html]
+- [Build your first app][https://developer.android.com/training/basics/firstapp]

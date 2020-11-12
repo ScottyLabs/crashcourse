@@ -10,26 +10,9 @@ description: >
 speaker: Olivia Corrodi
 ---
 
-_Note this talk is part two of a two-part series on Swift and iOS development.
-The Swift talk will precede this one, its description can be found
-[here](../swift/)._
+_If you're interested in learning Swift, check out a talk from a previous year [here](../swift/)._
 
 ## Before the Talk
-
-### Prerequisites
-
-This talk is targeted towards people who already have programming experience
-(e.g. took 112), but are unfamiliar with developing iOS applications. If your
-previous experience does not include Swift, we strongly recommend that you
-attend the Swift workshop that precedes this one.
-
-While this talk is open to everyone, we expect attendees to have some
-object-oriented programming (OOP) experience. We will assume you understand
-terms like 'class', 'object' and 'instantiate', as well as the basic idea of
-_inheritance_.
-
-Preferably, attendees will have some UI or other event-based experience, but
-this is not required.
 
 ### Required Software
 
@@ -46,7 +29,8 @@ If you want to use your own computer, you'll need the following:
 
 ## Resources
 
-The notes that go along with the talk are available [here][ios]!
+- [Start Developing iOS Apps (Swift)][https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/]
+- [WWDC20][https://developer.apple.com/videos/]
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 [ios]: http://scottylabs.org/IntroToSwift/ios.html
