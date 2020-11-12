@@ -6,8 +6,6 @@ description: Learn how to create cross-platform native apps with React
 speaker: Arleen Liu
 ---
 
-### Before the Talk
-
 ## Installation
 
 You can install React Native following [these instructions][https://reactnative.dev/docs/environment-setup]. We recommend you start with Expo CLI.
