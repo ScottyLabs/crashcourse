@@ -8,8 +8,13 @@ speaker: Sebastian La Duca
 
 ## Installation
 
-Install [Git][https://git-scm.com/downloads], [Node.js][https://nodejs.org/en/], and [Truffle Suite][https://www.trufflesuite.com/ganache]
+Install [Git][git], [Node.js][node], and [Truffle Suite][truffle]
 
 ## Resources
 
-- [Ethereum Pet Shop][https://www.trufflesuite.com/tutorials/pet-shop]
+- [Ethereum Pet Shop][pet-shop]
+
+[git]: https://git-scm.com/downloads
+[node]: https://nodejs.org/en/
+[truffle]: https://www.trufflesuite.com/ganache
+[pet-shop]: https://www.trufflesuite.com/tutorials/pet-shop

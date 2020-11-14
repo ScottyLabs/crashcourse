@@ -8,9 +8,14 @@ speaker: Arleen Liu
 
 ## Installation
 
-You can install React Native following [these instructions][https://reactnative.dev/docs/environment-setup]. We recommend you start with Expo CLI.
+You can install React Native following [these instructions][react-nat-instructions]. We recommend you start with Expo CLI.
 
 ## Resources
-- [React workshops from WDW][https://wdw.scottylabs.org/react/]
-- [React Native][https://reactnative.dev/]
-- [Tutorials from Official Website][https://reactnative.dev/docs/tutorial]
+- [React workshops from WDW][react-workshop]
+- [React Native][react-native]
+- [Tutorials from Official Website][react-nat-tut]
+
+[react-nat-instructions]: https://reactnative.dev/docs/environment-setup
+[react-workshop]: https://wdw.scottylabs.org/react/
+[react-native]: https://reactnative.dev/
+[react-nat-tut]: https://reactnative.dev/docs/tutorial
