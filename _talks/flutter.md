@@ -82,8 +82,8 @@ To launch an emulator, run `flutter emulators --launch <emulator_id>`.
 - `flutter run --release` runs a Flutter application in Release Mode (physical devices only)
 - `flutter clean` deletes all Flutter build files
 
-### Slides & Code
-The presentation slides and code can be found on [GitHub](https://github.com/akshathjain/FlutterWorkshop).
+### Slides
+The presentation slides [here](https://drive.google.com/file/d/1AwhLdl00i9NBoD0RGEQFLk8R2rF8AERv/view?usp=sharing).
 
 ### Lab
-The lab can be found on [GitHub](https://github.com/akshathjain/FlutterWorkshop/tree/master/weatherviewer).
+The lab can be found on [GitHub](https://github.com/anudaweerasinghe/flutter-demo).
