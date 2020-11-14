@@ -29,9 +29,15 @@ If you want to use your own computer, you'll need the following:
 
 ## Resources
 
-- [Start Developing iOS Apps (Swift)][https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/]
-- [WWDC20][https://developer.apple.com/videos/]
+- [Slides][slides]
+- [Lab][lab]
+
+- [Start Developing iOS Apps (Swift)][guide]
+- [WWDC20][wwdc]
 
 [xcode]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 [ios]: http://scottylabs.org/IntroToSwift/ios.html
-
+[slides]: https://docs.google.com/presentation/d/11QDgxvQBTca0QhOPJvwIWtolODhvOEouy5GYpiP4IQA/edit?usp=sharing
+[lab]: https://github.com/ocorrodi/SLDiningInfo-starter_code
+[guide]: https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/
+[wwdc]: https://developer.apple.com/videos/
