@@ -34,6 +34,10 @@ You'll need to have following:
 - (optional) An Android phone and USB cable to test your app on a real phone!
 
 ### Resources
+
+- [Slides](https://drive.google.com/file/d/1Pugbc8RIx1dNktdtBZ6p6y86C9iDwD-f/view?usp=sharing)
+- [Lab](https://repl.it/join/kkyixyqt-srutisrinidhi)
+
 - [Android Studios][android]
 - [Android Studios Blog][android-blog]
 - [Build your first app][first-app]
