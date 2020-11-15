@@ -127,6 +127,8 @@ pm.test("Response time is less than 200ms", function () {
 
 ## Resources
 
+- [Presentation](https://docs.google.com/presentation/d/1ClI_hVIgkhMDkICGJ89NquvkY6G2_pszYww-wbRBfVU/edit?usp=sharing)
+
 Background on Backend Frameworks
 
 1. [Flask]({{ site.baseurl }}/backend)
