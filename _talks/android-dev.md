@@ -35,6 +35,8 @@ You'll need to have following:
 
 ### Resources
 
+- [Recording of Walkthrough](https://cmu.zoom.us/rec/share/4NPb6J0hC2dhlhs6AP4Ogjzy_UTl35mK5Z4G0R23_vgPWfGv_dMrLabQtnSJEQf_.ix83WZRNKYc1Eyy3) password: @?Kc5zA5
+
 - [Slides](https://drive.google.com/file/d/1Pugbc8RIx1dNktdtBZ6p6y86C9iDwD-f/view?usp=sharing)
 - [Lab](https://repl.it/join/kkyixyqt-srutisrinidhi)
 
