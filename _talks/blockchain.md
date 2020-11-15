@@ -6,11 +6,15 @@ description: A whirlwind introduction to what a blockchain is, what they’re go
 speaker: Sebastian La Duca
 ---
 
+A whirlwind introduction to what a blockchain is, what they’re good for, and how to build web applications that use them.
+
 ## Installation
 
 Install [Git][git], [Node.js][node], [Truffle Suite][truffle], and [MetaMask](https://metamask.io/)
 
 ## Resources
+
+- [Presentation](https://drive.google.com/file/d/1omAaueMKa3yF2uBmjCF_IWTcJkfQ8JHD/view?usp=sharing)
 
 - [Ethereum Pet Shop][pet-shop]
 
