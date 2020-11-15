@@ -8,7 +8,7 @@ speaker: Sebastian La Duca
 
 ## Installation
 
-Install [Git][git], [Node.js][node], and [Truffle Suite][truffle]
+Install [Git][git], [Node.js][node], [Truffle Suite][truffle], and [MetaMask](https://metamask.io/)
 
 ## Resources
 
