@@ -3,7 +3,7 @@ name: pytorch
 title: PyTorch
 subtitle: vaguely hipster title
 description: Introduction to PyTorch, an open source machine learning framework
-speaker: Alex Ellis
+speaker: Keiffer Acoba
 ---
 
 ## Getting Started
@@ -11,6 +11,9 @@ speaker: Alex Ellis
 Check out the installation and starter guide [here][py-install].
 
 ## Resources
+
+- [Presentation](https://docs.google.com/presentation/d/1UqHvkIh5REU9npXqDVKr_XfL3J9co4ZncijkVgJ2ND0/edit#slide=id.ga211070c73_0_45)
+- [Lab](https://github.com/keiffer01/CrashCourse-PyTorch-Lab)
 
 - [Official PyTorch Website][pytorch]
 - [PyTorch for Deep Learning][pytorch]
