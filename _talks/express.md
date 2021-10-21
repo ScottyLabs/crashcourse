@@ -22,13 +22,11 @@ After this talk, there will be a workshop where participants will get a hands-on
 Bring a computer with a web browser and a text editor installed. You will also need to install [Node.JS](https://nodejs.org/en/download/) and [Postman](https://www.postman.com/downloads/).
 <div class="zoom"></div>
 
-View a pre-recorded version of the talk [here](https://drive.google.com/file/d/1JNXcmyza46aO8Z-_fFZYDVz--jNVu9eb/view?usp=sharing)!
-
 ## Lab
 
 Here are some resources that we will use for this workshop:
 
-- [Slides](https://docs.google.com/presentation/d/1Kh3_Rgl8qb00nRrPG_Dki8gN8E27KeWd7hDl4ugmFro/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1rkReVnLbUYcIVF0Wp6Qy1LgBB_q44gsj/edit?usp=sharing&ouid=103424869091921198212&rtpof=true&sd=true)
 - [Lab](https://github.com/ScottyLabs/wdw-node/blob/master/lab.md)
 
 ## Resources
