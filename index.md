@@ -15,7 +15,7 @@ The talks are all student-led and focused on hands-on activities. They're design
 <span class="anchor" id="schedule1">
 # Schedule
 
-  <!-- All talks will be held on Zoom! -->
+  All talks will be held in Rashid Auditorium in Gates-Hillman Center!
 
 {% for day in site.data.days %}
 
