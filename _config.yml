@@ -35,12 +35,12 @@ registration_link: https://forms.gle/RDWpeH2fsXzFFZJz8
 # The order that pages should be displayed int the menu bar
 # NOTE: These links hard-code the value of site.baseurl!
 nav_pages:
-  - title: SCHEDULE
-    url: schedule1
+  # - title: SCHEDULE
+    # url: schedule1
   - title: REGISTER
     url: https://forms.gle/RDWpeH2fsXzFFZJz8
-  - title: ZOOM
-    url: http://href.scottylabs.org/cc-zoom
+  # - title: ZOOM
+    # url: http://href.scottylabs.org/cc-zoom
 about_section:
   - name: register1
   - name: schedule1
