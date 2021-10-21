@@ -1,6 +1,6 @@
 ---
 name: ui-ux
-title: UI-UX
+title: UI/UX
 subtitle: intro to user interface / user experience design
 description: >
   Talk on UI and UX
