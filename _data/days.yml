@@ -1,18 +1,18 @@
-- date: Saturday, Nov 14
+- date: Saturday, Oct 23
   talks:
-    - name: ios-dev
-      time: '1 pm'
-    - name: flutter
-      time: '2 pm'
-    - name: android-dev
-      time: '3 pm'
-    - name: react-native
-      time: '4 pm'
-- date: Sunday, Nov 15
-  talks:
-    - name: pytorch
-      time: '1 pm'
-    - name: blockchain
-      time: '2 pm'
     - name: postman
+      time: '1 pm'
+    - name: android-dev
+      time: '2 pm'
+    - name: express
+      time: '3 pm'
+    - name: react
+      time: '4 pm'
+- date: Sunday, Oct 24
+  talks:
+    - name: ui-ux
+      time: '1 pm'
+    - name: tensorflow
+      time: '2 pm'
+    - name: ios-dev
       time: '3 pm'

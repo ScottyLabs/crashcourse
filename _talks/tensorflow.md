@@ -1,7 +1,10 @@
 ---
 name: tensorflow
 title: Tensorflow
-speaker: Peter & Srinu
+subtitle: open-source software library for ML and AI
+description: >
+  Talk on Tensorflow
+speaker: Rajeev
 ---
 
 # TensorFlow

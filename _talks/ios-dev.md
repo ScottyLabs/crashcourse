@@ -7,7 +7,7 @@ description: >
   applications. In this talk we will introduce you to iOS development, and walk
   you through building your first app. By the end of the talk, you will be able
   to build your own app for TartanHacks!
-speaker: Olivia Corrodi
+speaker: Ekemini
 ---
 
 _If you're interested in learning Swift, check out a talk from a previous year [here](../swift/)._

@@ -14,7 +14,7 @@ description: >
   build UI, and interacting with the phone's sensors. Finally, attendees will
   get to run their custom-built application on their own phones and learn how to
   publish an app on the Google Play Store.
-speaker: Sruti Srinidhi
+speaker: Will
 ---
 
 ## Before the Talk
